@@ -1,0 +1,2643 @@
+{
+  "core": {
+    "noDms": "Les commandes ne fonctionnent pas encore en messages privés.",
+    "userBlacklisted": "Tu es sur la liste noire de Maximum Bot.",
+    "guildBlacklisted": "Ce serveur est sur la liste noire de Maximum Bot. Le bot va maintenant partir.",
+    "lockdownMode": "🔒 Maximum Bot est actuellement verrouillé. Toutes les commandes sont désactivées.",
+    "maintenanceMode": "Toutes les commandes sont désactivées : le mode maintenance est actif. Consulte {url} pour les nouvelles.",
+    "devMode": "🔧 Maximum Bot est en mode développeur. Les commandes sont limitées au serveur de développement.",
+    "slowMode": "⏱️ Le mode lent est actif. Attends **{seconds} s** avant d'utiliser une autre commande.",
+    "readOnlyMode": "📖 Maximum Bot est en lecture seule. Les commandes qui modifient des données sont temporairement désactivées.",
+    "cooldown": "⏱️ `/{command}` est en recharge, réessaie {time}.",
+    "cooldownVoterHint": "Les votants attendent deux fois moins longtemps. Voir `/vote`.",
+    "errorTitle": "Un problème est survenu",
+    "errorDefault": "Une erreur s'est produite lors de l'exécution de cette commande.",
+    "errorContact": "Si cela continue, contacte-nous sur {url}",
+    "noPermission": "❌ Tu n'as pas la permission d'utiliser cette commande.",
+    "needPermission": "❌ Tu as besoin de la permission **{permission}**.",
+    "dbNotReady": "❌ La base de données n'est pas encore connectée.",
+    "somethingWrong": "❌ Un problème est survenu. Réessaie.",
+    "on": "🟢 Activé",
+    "off": "⚫ Désactivé",
+    "none": "Aucun",
+    "noneItalic": "*Aucun*",
+    "yes": "Oui",
+    "no": "Non",
+    "unknown": "Inconnu",
+    "noReason": "Aucune raison",
+    "noReasonProvided": "Aucune raison fournie",
+    "back": "Retour",
+    "next": "Suivant"
+  },
+  "language": {
+    "meSet": "✅ Je te parlerai désormais en **{language}**. Les messages publics utilisent toujours la langue du serveur.",
+    "meReset": "✅ Ta langue personnelle a été effacée. Tu verras **{language}**.",
+    "serverSet": "✅ La langue de ce serveur est maintenant **{language}**. Les membres peuvent toujours choisir la leur avec `/language me`.",
+    "needManageServer": "❌ Tu as besoin de la permission **Gérer le serveur** pour changer la langue du serveur.",
+    "infoTitle": "🌐 Langues",
+    "infoYours": "Ta langue",
+    "infoServer": "Langue du serveur",
+    "infoUsing": "Tu vois",
+    "infoNotSet": "Non définie",
+    "infoAvailable": "Disponibles",
+    "infoHow": "Les réponses que toi seul vois utilisent ta langue. Les messages publics comme les panneaux de rôles, les giveaways et les montées de niveau utilisent la langue du serveur.\n`/language me` · `/language server`"
+  },
+  "confirm": {
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "processing": "Confirmé, traitement en cours...",
+    "cancelled": "Annulé.",
+    "timedOut": "Délai de confirmation dépassé, action annulée."
+  },
+  "perm": {
+    "BanMembers": "Bannir des membres",
+    "KickMembers": "Expulser des membres",
+    "ModerateMembers": "Modérer les membres",
+    "ManageMessages": "Gérer les messages",
+    "ManageGuild": "Gérer le serveur",
+    "ManageRoles": "Gérer les rôles",
+    "ManageChannels": "Gérer les salons",
+    "Administrator": "Administrateur",
+    "ViewAuditLog": "Voir les logs du serveur",
+    "SendMessages": "Envoyer des messages",
+    "EmbedLinks": "Intégrer des liens"
+  },
+  "mod": {
+    "title": {
+      "ban": "🔨 Utilisateur banni",
+      "kick": "👢 Utilisateur expulsé",
+      "tempban": "⏳ Utilisateur banni temporairement",
+      "timeout": "⏲️ Utilisateur exclu temporairement",
+      "untimeout": "⏲️ Exclusion retirée",
+      "warn": "⚠️ Utilisateur averti",
+      "unban": "Utilisateur débanni de {server}"
+    },
+    "field": {
+      "user": "Utilisateur",
+      "moderator": "Modérateur",
+      "reason": "Raison",
+      "caseId": "ID du cas",
+      "duration": "Durée",
+      "totalWarnings": "Total des avertissements"
+    },
+    "minutes_one": "{count} minute",
+    "minutes_other": "{count} minutes",
+    "confirm": {
+      "ban": "Confirmer le bannissement",
+      "kick": "Confirmer l'expulsion",
+      "tempban": "Confirmer le bannissement temporaire",
+      "timeout": "Confirmer l'exclusion"
+    },
+    "confirmText": {
+      "ban": "Bannir **{user}** pour : {reason}",
+      "kick": "Expulser **{user}** pour : {reason}",
+      "tempban": "Bannir temporairement **{user}** pendant {duration}. Raison : {reason}",
+      "timeout": "Exclure **{user}** pendant {duration}. Raison : {reason}"
+    },
+    "unbanText": "L'utilisateur avec l'ID {id} a été débanni. Raison : {reason}",
+    "unbanDone": "L'utilisateur avec l'ID {id} a bien été débanni.",
+    "autoBanReason": "Bannissement auto : {count} avertissements atteints",
+    "autoTimeoutReason": "Exclusion auto : {count} avertissements atteints",
+    "err": {
+      "missingPerm": "Permission manquante : {permission}",
+      "notInServer": "Utilisateur introuvable sur ce serveur.",
+      "banFailed": "Impossible de bannir l'utilisateur (vérifie les permissions et la hiérarchie).",
+      "kickFailed": "Impossible d'expulser l'utilisateur.",
+      "unbanFailed": "Une erreur s'est produite lors du débannissement.",
+      "tempbanFailed": "Impossible de bannir temporairement l'utilisateur.",
+      "durationMin": "La durée doit être d'au moins 1 minute.",
+      "timeoutRange": "La durée doit être comprise entre 1 et 10080 minutes (7 jours).",
+      "timeoutFailed": "Impossible d'exclure l'utilisateur. Vérifie mes permissions et la hiérarchie des rôles.",
+      "untimeoutFailed": "Impossible de retirer l'exclusion. Vérifie que mon rôle est assez haut."
+    }
+  },
+  "warnings": {
+    "none": "{user} n'a aucun avertissement.",
+    "title": "⚠️ Avertissements de {user}",
+    "total": "Total des avertissements : {count}",
+    "noneForUser": "Aucun avertissement trouvé pour cet utilisateur.",
+    "caseNotFound": "Aucun avertissement avec l'ID de cas {caseId}.",
+    "removedTitle": "🧽 Avertissement retiré",
+    "removedCase": "ID du cas retiré",
+    "remaining": "Avertissements restants",
+    "nothingToClear": "{user} n'a aucun avertissement à effacer.",
+    "clearedTitle": "🧹 Avertissements effacés",
+    "clearedText": "Tous les avertissements de **{user}** ont été effacés."
+  },
+  "purge": {
+    "range": "Le nombre doit être compris entre 1 et 100.",
+    "nothing": "Aucun message correspondant à supprimer (les messages de plus de 14 jours ne peuvent pas être supprimés en masse).",
+    "title": "🧹 Messages supprimés",
+    "channel": "Salon",
+    "deleted": "Supprimés",
+    "filteredTo": "Filtré sur",
+    "done_one": "✅ {count} message supprimé.",
+    "done_other": "✅ {count} messages supprimés.",
+    "failed": "Impossible de supprimer les messages. Il me manque peut-être des permissions, ou les messages sont trop anciens."
+  },
+  "avatar": {
+    "title": "Avatar de {user}",
+    "url": "URL de l'avatar"
+  },
+  "fun": {
+    "poweredBy": "Propulsé par Fluxpoint API",
+    "refresh": "Actualiser",
+    "catFailed": "Impossible de récupérer une photo de chat. Réessaie plus tard.",
+    "dogFailed": "Impossible de récupérer une photo de chien. Réessaie plus tard.",
+    "memeTitle": "Mèmes",
+    "memeFailed": "Impossible de récupérer un mème. Réessaie plus tard.",
+    "wallpaperTitle": "Fond d'écran",
+    "wallpaperFailed": "Impossible de récupérer un fond d'écran. Réessaie plus tard."
+  },
+  "userinfo": {
+    "moreRoles": "*+{count} de plus*",
+    "adminAll": "Administrateur (toutes les permissions)",
+    "perm": {
+      "Administrator": "Administrateur",
+      "ManageGuild": "Gérer le serveur",
+      "ManageRoles": "Gérer les rôles",
+      "ManageChannels": "Gérer les salons",
+      "BanMembers": "Bannir des membres",
+      "KickMembers": "Expulser des membres",
+      "ModerateMembers": "Exclure temporairement",
+      "ManageMessages": "Gérer les messages",
+      "MentionEveryone": "Mentionner @everyone"
+    },
+    "discordBadge": {
+      "Staff": "Équipe Discord",
+      "Partner": "Partenaire Discord",
+      "Hypesquad": "Événements HypeSquad",
+      "BugHunterLevel1": "Chasseur de bugs",
+      "BugHunterLevel2": "Chasseur de bugs (or)",
+      "HypeSquadOnlineHouse1": "HypeSquad Bravery",
+      "HypeSquadOnlineHouse2": "HypeSquad Brilliance",
+      "HypeSquadOnlineHouse3": "HypeSquad Balance",
+      "PremiumEarlySupporter": "Soutien de la première heure",
+      "VerifiedDeveloper": "Développeur de bots vérifié précoce",
+      "CertifiedModerator": "Modérateur certifié",
+      "ActiveDeveloper": "Développeur actif",
+      "VerifiedBot": "Bot vérifié"
+    },
+    "tagBot": "🤖 Bot",
+    "tagOwner": "👑 Propriétaire du serveur",
+    "tagBooster": "💎 Booster du serveur",
+    "tagTimedOut": "⏲️ Exclu jusqu'à {time}",
+    "tagSpammer": "⚠️ Signalé par Discord comme spammeur probable",
+    "badges": "🏆 Badges",
+    "badgesCount": "🏆 Badges ({count})",
+    "until": "jusqu'à {time}",
+    "noBadges": "Aucun badge pour l'instant. Voir `/badges`.",
+    "discordBadges": "🎗️ Badges Discord",
+    "created": "📅 Compte créé",
+    "joined": "📥 A rejoint le serveur",
+    "votes": "💜 Votes",
+    "voteActive": "Actif, se termine {time}",
+    "voteInactive": "Pas de vote récent",
+    "votePoints": "{points} points · {votes} votes",
+    "voteStreak": "🔥 Série de {count} jours",
+    "nickname": "🏷️ Pseudo",
+    "boosting": "💎 Booste depuis",
+    "roles": "📚 Rôles ({count})",
+    "keyPerms": "🔑 Permissions clés",
+    "membership": "ℹ️ Adhésion au serveur",
+    "notMember": "N'est pas membre de ce serveur.",
+    "warnings": "⚠️ Avertissements (visibles uniquement par les modérateurs)",
+    "warningsCount": "{count}, voir `/warnings` ou `/modlogs`",
+    "btnAvatar": "Avatar",
+    "btnServerAvatar": "Avatar du serveur",
+    "btnBanner": "Bannière",
+    "btnProfile": "Profil"
+  },
+  "badge": {
+    "owner": {
+      "name": "Propriétaire",
+      "description": "A créé Maximum Bot."
+    },
+    "developer": {
+      "name": "Développeur",
+      "description": "Aide à construire Maximum Bot."
+    },
+    "staff": {
+      "name": "Staff",
+      "description": "Membre de l'équipe de support de Maximum Studios."
+    },
+    "partner": {
+      "name": "Partenaire",
+      "description": "Partenaire officiel de Maximum Studios."
+    },
+    "bug_hunter": {
+      "name": "Chasseur de bugs",
+      "description": "A signalé un bug qui a été corrigé."
+    },
+    "early_supporter": {
+      "name": "Soutien de la première heure",
+      "description": "A soutenu Maximum Bot dès le début."
+    },
+    "supporter": {
+      "name": "Soutien",
+      "description": "Soutient Maximum Studios."
+    },
+    "top_voter": {
+      "name": "Meilleur votant",
+      "description": "Parmi les 3 meilleurs votants d'un mois."
+    },
+    "voter_diamond": {
+      "name": "Votant diamant",
+      "description": "A gagné 250 points de vote."
+    },
+    "voter_gold": {
+      "name": "Votant or",
+      "description": "A gagné 100 points de vote."
+    },
+    "voter_silver": {
+      "name": "Votant argent",
+      "description": "A gagné 50 points de vote."
+    },
+    "voter_bronze": {
+      "name": "Votant bronze",
+      "description": "A gagné 25 points de vote."
+    },
+    "streak_30": {
+      "name": "Série de 30 jours",
+      "description": "A voté 30 jours d'affilée."
+    },
+    "streak_7": {
+      "name": "Série de 7 jours",
+      "description": "A voté 7 jours d'affilée."
+    },
+    "streak_3": {
+      "name": "Série de 3 jours",
+      "description": "A voté 3 jours d'affilée."
+    },
+    "dedicated_voter": {
+      "name": "Votant fidèle",
+      "description": "A voté 10 fois ou plus."
+    },
+    "upvoter": {
+      "name": "Votant",
+      "description": "A voté dans les 12 dernières heures (`/vote`)."
+    }
+  },
+  "badgeDetail": {
+    "points_one": "{count} point",
+    "points_other": "{count} points",
+    "bestStreak_one": "meilleure série : {count} jour",
+    "bestStreak_other": "meilleure série : {count} jours",
+    "votes_one": "{count} vote",
+    "votes_other": "{count} votes"
+  },
+  "badges": {
+    "userTitle": "Badges de {user}",
+    "userNone": "{user} n'a pas encore de badge. Regarde `/badges` pour savoir comment en gagner !",
+    "people_one": "{count} personne",
+    "people_other": "{count} personnes",
+    "title": "🏆 Badges de Maximum Bot",
+    "description": "Les badges s'affichent sur `/userinfo`. Votant dure 12 heures par vote ; les badges de paliers, de séries et Meilleur votant sont à toi pour toujours. Les votes du week-end comptent pour 2 points.",
+    "howVote": "S'obtient en votant",
+    "howManual": "Attribué par l'équipe Maximum Studios",
+    "voteHint": "Vote avec `/vote status`.",
+    "special": "✨ Spéciaux",
+    "customCount_one": "{count} badge personnalisé unique attribué.",
+    "customCount_other": "{count} badges personnalisés uniques attribués."
+  },
+  "vote": {
+    "btnTopgg": "Voter sur top.gg",
+    "btnFluxpoint": "Voter sur Fluxpoint Discover",
+    "reminderOn": "⏰ Les rappels de vote sont **activés**. Je t'enverrai un MP quand ton vote expire et que tu peux revoter. Vérifie que tes MP sont ouverts !",
+    "reminderOff": "🔕 Les rappels de vote sont **désactivés**.",
+    "reminderDmTitle": "⏰ Tu peux de nouveau voter pour {bot} !",
+    "reminderDmText": "Ton vote a expiré : ton badge **{badge}** et ton rôle Votant sont retirés pour le moment.\nVote à nouveau pour les récupérer pendant 12 heures de plus. 💜",
+    "reminderDmOff": "Désactive ces rappels avec `/vote reminder enabled:False`.",
+    "lbTitleMonth": "🏆 Meilleurs votants du mois",
+    "lbTitleAll": "🏆 Meilleurs votants de tous les temps",
+    "lbEmpty": "Aucun vote pour l'instant. Sois le premier !",
+    "weekendNote": "Les votes du week-end comptent pour 2 points.",
+    "topVoterNote": "Le top 3 de chaque mois reçoit le badge permanent 🏆 Meilleur votant.",
+    "title": "💜 Vote pour {bot}",
+    "intro": "Voter aide d'autres serveurs à découvrir le bot. Chaque vote te donne, pendant 12 heures :",
+    "perkBadge": "Le badge 💜 **{badge}** sur `/userinfo`",
+    "perkRole": "Le rôle {role} sur notre serveur de support",
+    "perkCooldowns": "Des temps de recharge des commandes réduits de moitié",
+    "perkXp": "1,5× d'XP sur les serveurs qui utilisent les niveaux",
+    "perkGiveaway": "Une participation bonus aux giveaways qui le permettent",
+    "perkShoutout": "Une mention dans notre salon des votes",
+    "keep": "**À garder pour toujours :** badges de paliers 🥉🥈🥇💠 à 25/50/100/250 points, badges de série ⚡🌟👑 pour 3/7/30 jours de vote d'affilée, et 🏆 Meilleur votant pour le top 3 de chaque mois. Les votes du week-end (sam–dim UTC) comptent pour 2 points.",
+    "fieldStatus": "Ton statut",
+    "statusActive": "✅ Actif, expire {time}",
+    "statusInactive": "❌ Inactif. Vote ci-dessous !",
+    "fieldVotes": "Tes votes",
+    "votesValue": "{month} points ce mois-ci\n{points} points · {total} votes au total",
+    "unavailable": "Indisponible",
+    "fieldStreak": "Série",
+    "streakValue_one": "🔥 {count} jour (record : {best})",
+    "streakValue_other": "🔥 {count} jours (record : {best})",
+    "fieldReminders": "Rappels",
+    "remindersOn": "⏰ Activés",
+    "remindersOff": "🔕 Désactivés (`/vote reminder`)",
+    "fieldNext": "Prochains badges",
+    "goalPoints": "{have}/{need} points",
+    "goalStreak": "record {have}/{need} jours"
+  },
+  "serverinfo": {
+    "owner": "👑 Propriétaire",
+    "created": "📅 Créé",
+    "botJoined": "📥 Arrivée du bot",
+    "members": "👥 Membres",
+    "membersCount_one": "**{n}** membre",
+    "membersCount_other": "**{n}** membres",
+    "online": "🟢 **{n}** en ligne",
+    "channels": "💬 Salons ({count})",
+    "channelsText": "💬 {text} textuels · 🔊 {voice} vocaux",
+    "channelsOther": "🗂️ {forum} forums · 📁 {categories} catégories",
+    "boosts": "💎 Boosts",
+    "boostsValue": "Niveau **{level}**\n**{count}** boosts",
+    "roles": "🎭 Rôles",
+    "rolesValue": "**{count}** rôles",
+    "emojis": "😀 Émojis et autocollants",
+    "emojisValue": "**{static}**/{slots} statiques · **{animated}**/{slots} animés",
+    "stickersValue": "**{count}** autocollants · voir `/emojis`",
+    "security": "🛡️ Sécurité",
+    "verification": "Vérification : **{level}**",
+    "contentFilter": "Filtre de contenu : **{level}**",
+    "mfaNsfw": "A2F modération : **{mfa}** · NSFW : **{nsfw}**",
+    "mfaRequired": "Requise",
+    "mfaOff": "Désactivée",
+    "verify": {
+      "none": "Aucune",
+      "low": "Faible (e-mail vérifié)",
+      "medium": "Moyenne (5 min sur Discord)",
+      "high": "Élevée (10 min sur le serveur)",
+      "highest": "Maximale (téléphone vérifié)"
+    },
+    "filter": {
+      "off": "Désactivé",
+      "noRoles": "Membres sans rôle",
+      "all": "Tous les membres"
+    },
+    "nsfw": {
+      "default": "Par défaut",
+      "explicit": "Explicite",
+      "safe": "Sûr",
+      "ageRestricted": "Soumis à une limite d'âge"
+    },
+    "feature": {
+      "VERIFIED": "Vérifié",
+      "PARTNERED": "Partenaire",
+      "COMMUNITY": "Communauté",
+      "DISCOVERABLE": "Visible dans Découverte",
+      "VANITY_URL": "URL personnalisée",
+      "WELCOME_SCREEN_ENABLED": "Écran de bienvenue",
+      "MEMBER_VERIFICATION_GATE_ENABLED": "Filtrage des membres",
+      "ROLE_SUBSCRIPTIONS_ENABLED": "Abonnements au serveur",
+      "TICKETED_EVENTS_ENABLED": "Événements payants",
+      "ANIMATED_ICON": "Icône animée",
+      "BANNER": "Bannière"
+    },
+    "rules": "📜 Règles : {channel}",
+    "afk": "💤 AFK : {channel} ({minutes} min)",
+    "locale": "🌐 Langue : {locale}",
+    "more": "ℹ️ Plus",
+    "features": "✨ Fonctionnalités",
+    "btnIcon": "Icône",
+    "btnBanner": "Bannière",
+    "btnSplash": "Fond d'invitation"
+  },
+  "botinfo": {
+    "description": "Bot Discord de Maximum Studios : modération, automod, logs du serveur, panneaux de rôles, niveaux, giveaways, tickets de support, commandes personnalisées et tableaux de bord pour le propriétaire et chaque serveur.",
+    "versionLine": "**Version** {version} · **Créé par** {owner} · **Depuis** {since}",
+    "reach": "📊 Portée",
+    "reachValue": "**{servers}** serveurs\n**{members}** membres\n**{commands}** commandes",
+    "activity": "📈 Activité",
+    "commandsRun": "**{n}** commandes exécutées",
+    "votesValue": "**{month}** votes ce mois-ci\n**{total}** votes au total",
+    "votesUnavailable": "Votes indisponibles",
+    "system": "⚙️ Système",
+    "uptime": "En ligne depuis **{uptime}**",
+    "pingRam": "Ping **{ping}ms** · RAM **{ram} Mo**",
+    "unavailableNow": "Indisponible pour le moment",
+    "studiosDown": "{name} : rencontre des problèmes, voir notre [page de statut]({url})",
+    "btnInvite": "Inviter",
+    "btnVote": "Voter",
+    "btnSupport": "Support",
+    "btnPrivacy": "Confidentialité",
+    "btnDashboard": "Tableau de bord",
+    "error": "Une erreur s'est produite lors de la récupération des infos du bot."
+  },
+  "apiping": {
+    "rating": {
+      "excellent": "Excellent",
+      "good": "Bon",
+      "slow": "Lent",
+      "verySlow": "Très lent",
+      "unreachable": "Injoignable"
+    },
+    "verdict": {
+      "0": "🚀 Tout file à toute allure !",
+      "1": "⚡ Bien réactif.",
+      "2": "🐢 Un peu lent en ce moment.",
+      "3": "🔥 Quelque chose passe un mauvais moment.",
+      "4": "💀 Quelque chose est en panne. Consulte notre page de statut."
+    },
+    "timedOut": "délai dépassé",
+    "gateway": "Battement du gateway",
+    "gatewayNote": "Connexion bot ⇄ Discord",
+    "roundtrip": "Aller-retour de la commande",
+    "roundtripNote": "Ta commande qui atteint le bot",
+    "discordApi": "API Discord",
+    "database": "Base de données",
+    "website": "Site web",
+    "dashboard": "Tableau de bord",
+    "na": "n/d",
+    "author": "{bot} · Ping",
+    "legend": "🟢 <100ms · 🟡 <250ms · 🟠 <600ms · 🔴 plus lent",
+    "checkNumber": "Test n° {n}",
+    "again": "Refaire un ping",
+    "statusPage": "Page de statut"
+  },
+  "emojis": {
+    "notCustom": "Ce n'est pas un émoji personnalisé. Choisis-en un dans le menu des émojis (les émojis standard comme 😀 n'ont pas de détails à afficher).",
+    "yesRestricted": "Oui (réservé à {roles})",
+    "otherServer": "Non, il vient d'un autre serveur",
+    "type": "Type",
+    "animated": "🎞️ Animé",
+    "static": "🖼️ Statique",
+    "created": "Créé",
+    "code": "Code",
+    "fromHere": "De ce serveur ?",
+    "openImage": "Ouvrir l'image",
+    "usage": "🖼️ **{static}**/{slots} statiques · 🎞️ **{animated}**/{slots} animés (niveau de boost {level})",
+    "filter": {
+      "static": "statiques",
+      "animated": "animés"
+    },
+    "author": "Émojis de {server}",
+    "showing": "Affichage de **{count}** correspondant à {filters}",
+    "none": "Aucun émoji trouvé.",
+    "footer": "Page {page} sur {pages} • Cherches-en un avec /emojis emoji:"
+  },
+  "permission": {
+    "noSelf": "❌ Impossible de récupérer le membre du bot lui-même.",
+    "noChannelPerms": "❌ Impossible de déterminer les permissions de ce salon.",
+    "neededFor": "nécessaire pour {why}",
+    "missingInChannel": "**{permission}** dans {channel} - fonctionnement de base du bot",
+    "missingFeature": "**{feature}** (Paramètres du serveur > Vue d'ensemble) - {why}",
+    "title": "🔍 Vérification des permissions",
+    "hasAdmin": "✅ Le bot a **Administrateur** : toutes les vérifications ci-dessous passent automatiquement.",
+    "checkedAgainst": "Vérifié sur **{server}**.",
+    "serverWide": "Tout le serveur",
+    "channel": "Salon : {channel}",
+    "features": "Fonctionnalités du serveur",
+    "missing": "⚠️ Manquant",
+    "name": {
+      "ManageGuild": "Gérer le serveur",
+      "ManageRoles": "Gérer les rôles",
+      "ManageChannels": "Gérer les salons",
+      "ManageMessages": "Gérer les messages",
+      "ViewAuditLog": "Voir les logs du serveur",
+      "ModerateMembers": "Exclure temporairement",
+      "KickMembers": "Expulser des membres",
+      "BanMembers": "Bannir des membres",
+      "ViewChannel": "Voir le salon",
+      "SendMessages": "Envoyer des messages",
+      "EmbedLinks": "Intégrer des liens",
+      "ReadMessageHistory": "Voir l'historique des messages"
+    },
+    "why": {
+      "ManageGuild": "les règles AutoMod de Discord (liens d'arnaque, filtres de mots et de liens) et /setup",
+      "ManageRoles": "les panneaux de rôles, les rôles de niveau et /lockdown",
+      "ManageChannels": "/lockdown et le honeypot de /setup",
+      "ManageMessages": "supprimer les messages signalés, la protection anti-flood et épingler l'embed du honeypot",
+      "ViewAuditLog": "que les logs du serveur indiquent qui a fait chaque modification",
+      "ModerateMembers": "/timeout, la protection anti-flood et les sanctions de l'automod",
+      "KickMembers": "/kick et les sanctions de l'automod",
+      "BanMembers": "/ban, les bannissements du honeypot et les sanctions de l'automod"
+    },
+    "feature": {
+      "community": "Mode Communauté"
+    },
+    "featureWhy": {
+      "community": "Discord l'exige avant de pouvoir créer des règles AutoMod (protection contre les liens d'arnaque et @everyone)"
+    }
+  },
+  "settings": {
+    "notSet": "*Non défini*",
+    "noneSet": "*Aucun défini*",
+    "dashboardNote": "Gère tout cela depuis le [tableau de bord]({url}) au lieu de relancer des commandes slash.",
+    "title": "⚙️ Configuration du serveur",
+    "noSetup": "Ce serveur n'a pas encore lancé `/setup`. Seule la configuration de l'automod de **{server}** est affichée.",
+    "current": "Paramètres actuels de **{server}**",
+    "logChannel": "Salon des logs",
+    "banTimeout": "Délai de bannissement",
+    "tempBanDuration": "Durée du bannissement temporaire",
+    "warnThreshold": "Seuil d'avertissements",
+    "language": "Langue",
+    "hours_one": "{count} heure",
+    "hours_other": "{count} heures",
+    "days_one": "{count} jour",
+    "days_other": "{count} jours",
+    "warns_one": "{count} avertissement",
+    "warns_other": "{count} avertissements",
+    "automodHeader": "🛡️ Automod",
+    "fallsBack": "*Utilise le salon des logs ci-dessus*",
+    "error": "Impossible de récupérer les paramètres du serveur.",
+    "am": {
+      "enabled": "Automod activé",
+      "antiScam": "Anti-liens d'arnaque",
+      "antiEveryone": "Restreindre @everyone/@here",
+      "antiMassMention": "Protection contre les mentions de masse",
+      "sync": "Synchronisation AutoMod Discord",
+      "bypassRoles": "Rôles ignorés par l'automod",
+      "blacklist": "Liste noire personnalisée de l'automod",
+      "logChannel": "Salon des logs de l'automod"
+    }
+  },
+  "setup": {
+    "saved": "✅ Paramètres du serveur enregistrés !",
+    "saveFailed": "❌ Impossible d'enregistrer les paramètres du serveur.",
+    "noHoneypot": "❌ Aucun honeypot n'est configuré sur ce serveur.",
+    "honeypotRemoved": "✅ Salon honeypot supprimé.",
+    "replaceTitle": "Remplacer le honeypot existant ?",
+    "replaceText_one": "Ce serveur a déjà un honeypot ({channel}) avec **{count}** bannissement enregistré. En créer un nouveau supprimera l'ancien salon et remettra le compteur à zéro.",
+    "replaceText_other": "Ce serveur a déjà un honeypot ({channel}) avec **{count}** bannissements enregistrés. En créer un nouveau supprimera l'ancien salon et remettra le compteur à zéro.",
+    "replace": "Remplacer",
+    "honeypotCreated": "🍯 Honeypot créé",
+    "honeypotCreatedText": "{channel} est maintenant actif. Toute personne qui y envoie un message sera bannie immédiatement ; les réactions sont sans danger et ne comptent pas.",
+    "honeypotFailed": "Impossible de créer le salon honeypot (vérifie que le bot a la permission Gérer les salons)."
+  },
+  "caseType": {
+    "ban": "🔨 Bannissement",
+    "kick": "👢 Expulsion",
+    "timeout": "⏲️ Exclusion temporaire",
+    "untimeout": "⏲️ Exclusion retirée",
+    "tempban": "⏳ Bannissement temporaire",
+    "unban": "✅ Débannissement",
+    "warn": "⚠️ Avertissement",
+    "automod-timeout": "🤖 Exclusion par l'automod",
+    "automod-kick": "🤖 Expulsion par l'automod",
+    "automod-ban": "🤖 Bannissement par l'automod",
+    "honeypot-ban": "🍯 Bannissement par le honeypot"
+  },
+  "modlogs": {
+    "none": "{user} n'a aucun historique de modération.",
+    "title": "📋 Historique de modération - {user}",
+    "footer_one": "{count} cas au total - jusqu'aux 15 plus récents affichés",
+    "footer_other": "{count} cas au total - jusqu'aux 15 plus récents affichés"
+  },
+  "help": {
+    "privacyPage": "CGU et confidentialité",
+    "privacyTitle": "📜 Conditions d'utilisation et confidentialité",
+    "privacyIntro": "En utilisant Maximum Bot, tu acceptes nos [Conditions d'utilisation]({tos}). Notre [Politique de confidentialité]({privacy}) explique précisément ce que nous stockons et pourquoi.",
+    "storeTitle": "🗂️ Ce que nous stockons",
+    "store": {
+      "settings": "Les paramètres du serveur, les règles AutoMod, les réglages des logs, les réglages de langue et les commandes personnalisées",
+      "moderation": "Les dossiers de modération (avertissements, logs de modération, bannissements temporaires, sanctions de l'automod et notes du staff)",
+      "tickets": "Les tickets de support et les messages que tu nous envoies",
+      "votes": "Tes votes, séries de votes et badges, ta langue choisie et si tu as activé les rappels de vote",
+      "xp": "Ton XP et ton niveau sur les serveurs qui utilisent les niveaux",
+      "community": "Les rappels que tu crées, les suggestions et leurs votes, et les participations aux giveaways",
+      "noText": "Nous ne stockons **pas** le texte des messages : les logs sont publiés uniquement dans le salon des logs du serveur"
+    },
+    "deleteTitle": "🗑️ Tu veux que tes données soient supprimées ?",
+    "deleteIntro": "Contacte-nous par l'un de ces moyens et nous les supprimerons :",
+    "deleteSupport": "Utilise `/support` sur Discord",
+    "deleteEmail": "Écris à **{email}**",
+    "deleteVisit": "Va sur **{url}**",
+    "privacyFooter": "CGU et confidentialité • Maximum Studios",
+    "title": "📖 Centre d'aide",
+    "browse": "Parcours les commandes par catégorie avec le menu ci-dessous.",
+    "agree": "En utilisant le bot, tu acceptes nos [Conditions d'utilisation]({tos}) et notre [Politique de confidentialité]({privacy}). Choisis **{page}** dans le menu pour voir ce que nous stockons et comment le faire supprimer.",
+    "categoryLine_one": "**Catégorie :** {category} ({count} commande)",
+    "categoryLine_other": "**Catégorie :** {category} ({count} commandes)",
+    "footer": "Page {page} sur {pages} • Maximum Studios",
+    "changelogTitle": "Nouveautés et annonces",
+    "changelogText": "Découvre les dernières mises à jour avec `/changelog`.",
+    "supportTitle": "💜 Soutenir le bot",
+    "supportText": "Vote avec `/vote status` pour obtenir le badge 💜 Votant et les avantages des votants. Vois tous les badges avec `/badges`.",
+    "emptyTitle": "Aucune commande ici",
+    "emptyText": "Rien à afficher dans cette catégorie pour l'instant.",
+    "selectCategory": "Choisis une catégorie",
+    "commandCount_one": "{count} commande",
+    "commandCount_other": "{count} commandes",
+    "privacyOption": "Ce que nous stockons et comment le faire supprimer",
+    "home": "Accueil",
+    "category": {
+      "General": "Général",
+      "Community": "Communauté",
+      "Fun": "Fun",
+      "Moderation": "Modération",
+      "Configuration": "Configuration",
+      "Owner": "Propriétaire",
+      "Other": "Autres"
+    }
+  },
+  "changelog": {
+    "title": "📜 Nouveautés • {version}",
+    "majorTitle": "🚀 Version majeure • {version}",
+    "majorUpdate": "🌟 **Mise à jour majeure**",
+    "latestRelease": "🆕 **Dernière version**",
+    "released": "Publiée {time}",
+    "highlights": "🔥 Points forts",
+    "whatsNew": "✨ Nouveautés",
+    "releaseNotes": "📢 Notes de version",
+    "changes": "📝 Modifications ({count})",
+    "footer": "{version} • {count} versions",
+    "selectVersion": "Choisis une version...",
+    "latestTag": "(dernière)",
+    "majorShort": "Mise à jour majeure",
+    "notFound": "⚠️ Entrée du journal des modifications introuvable.",
+    "menuExpired": "Menu expiré"
+  },
+  "news": {
+    "noGuild": "Serveur cible introuvable.",
+    "noChannel": "Salon d'actualités introuvable ou ce n'est pas un salon textuel du serveur cible.",
+    "empty": "Aucune actualité à afficher depuis le serveur cible.",
+    "copyFailed": "Impossible de copier le dernier message d'actualité.",
+    "error": "Une erreur s'est produite lors de la récupération des dernières actualités."
+  },
+  "logs": {
+    "audit": {
+      "GuildUpdate": "⚙️ Paramètres du serveur modifiés",
+      "ChannelCreate": "➕ Salon créé",
+      "ChannelUpdate": "✏️ Salon modifié",
+      "ChannelDelete": "🗑️ Salon supprimé",
+      "ChannelOverwriteCreate": "🔐 Permissions du salon ajoutées",
+      "ChannelOverwriteUpdate": "🔐 Permissions du salon modifiées",
+      "ChannelOverwriteDelete": "🔐 Permissions du salon retirées",
+      "EmojiCreate": "😀 Émoji ajouté",
+      "EmojiUpdate": "😀 Émoji modifié",
+      "EmojiDelete": "😀 Émoji supprimé",
+      "StickerCreate": "🏷️ Autocollant ajouté",
+      "StickerUpdate": "🏷️ Autocollant modifié",
+      "StickerDelete": "🏷️ Autocollant supprimé",
+      "InviteCreate": "🔗 Invitation créée",
+      "InviteDelete": "🔗 Invitation supprimée",
+      "WebhookCreate": "🪝 Webhook créé",
+      "WebhookUpdate": "🪝 Webhook modifié",
+      "WebhookDelete": "🪝 Webhook supprimé",
+      "IntegrationCreate": "🧩 Intégration ajoutée",
+      "IntegrationUpdate": "🧩 Intégration modifiée",
+      "IntegrationDelete": "🧩 Intégration retirée",
+      "BotAdd": "🤖 Bot ajouté",
+      "GuildScheduledEventCreate": "📅 Événement créé",
+      "GuildScheduledEventUpdate": "📅 Événement modifié",
+      "GuildScheduledEventDelete": "📅 Événement supprimé",
+      "ThreadCreate": "🧵 Fil créé",
+      "ThreadUpdate": "🧵 Fil modifié",
+      "ThreadDelete": "🧵 Fil supprimé",
+      "AutoModerationRuleCreate": "🛡️ Règle AutoMod créée",
+      "AutoModerationRuleUpdate": "🛡️ Règle AutoMod modifiée",
+      "AutoModerationRuleDelete": "🛡️ Règle AutoMod supprimée",
+      "StageInstanceCreate": "🎙️ Conférence lancée",
+      "StageInstanceDelete": "🎙️ Conférence terminée",
+      "SoundboardSoundCreate": "🔊 Son de la soundboard ajouté",
+      "SoundboardSoundUpdate": "🔊 Son de la soundboard modifié",
+      "SoundboardSoundDelete": "🔊 Son de la soundboard supprimé",
+      "RoleCreate": "➕ Rôle créé",
+      "RoleUpdate": "✏️ Rôle modifié",
+      "RoleDelete": "🗑️ Rôle supprimé",
+      "MemberRoleUpdate": "🎭 Rôles du membre modifiés",
+      "MemberUpdate": "👤 Membre modifié",
+      "MemberKick": "👢 Membre expulsé",
+      "MemberBanAdd": "🔨 Membre banni",
+      "MemberBanRemove": "🔓 Membre débanni",
+      "MemberPrune": "🧹 Membres élagués",
+      "MemberMove": "🔀 Membres déplacés entre salons vocaux",
+      "MemberDisconnect": "🔌 Membre déconnecté du vocal",
+      "MessagePin": "📌 Message épinglé",
+      "MessageUnpin": "📌 Message désépinglé",
+      "MessageBulkDelete": "🧹 Messages supprimés en masse"
+    },
+    "key": {
+      "name": "Nom",
+      "topic": "Sujet",
+      "nsfw": "Soumis à une limite d'âge",
+      "rate_limit_per_user": "Mode lent",
+      "bitrate": "Débit",
+      "user_limit": "Limite d'utilisateurs",
+      "position": "Position",
+      "parent_id": "Catégorie",
+      "type": "Type",
+      "color": "Couleur",
+      "colors": "Couleurs",
+      "hoist": "Affiché séparément",
+      "mentionable": "Mentionnable",
+      "permissions": "Permissions",
+      "icon_hash": "Icône",
+      "unicode_emoji": "Émoji",
+      "nick": "Pseudo",
+      "deaf": "Mis en sourdine par le serveur",
+      "mute": "Rendu muet par le serveur",
+      "communication_disabled_until": "Exclu jusqu'à",
+      "afk_channel_id": "Salon AFK",
+      "afk_timeout": "Délai AFK",
+      "banner_hash": "Bannière",
+      "description": "Description",
+      "default_message_notifications": "Notifications par défaut",
+      "explicit_content_filter": "Filtre de contenu explicite",
+      "mfa_level": "A2F pour la modération",
+      "owner_id": "Propriétaire",
+      "preferred_locale": "Langue",
+      "premium_progress_bar_enabled": "Barre de progression des boosts",
+      "public_updates_channel_id": "Salon des mises à jour de la communauté",
+      "rules_channel_id": "Salon des règles",
+      "splash_hash": "Fond d'invitation",
+      "system_channel_id": "Salon des messages système",
+      "system_channel_flags": "Réglages des messages système",
+      "vanity_url_code": "URL personnalisée",
+      "verification_level": "Niveau de vérification",
+      "widget_enabled": "Widget",
+      "widget_channel_id": "Salon du widget",
+      "discovery_splash_hash": "Fond de Découverte",
+      "code": "Code",
+      "channel_id": "Salon",
+      "inviter_id": "Créé par",
+      "max_uses": "Utilisations max.",
+      "uses": "Utilisations",
+      "max_age": "Expire après",
+      "temporary": "Adhésion temporaire",
+      "avatar_hash": "Avatar",
+      "tags": "Tags",
+      "format_type": "Format",
+      "available": "Disponible",
+      "archived": "Archivé",
+      "locked": "Verrouillé",
+      "auto_archive_duration": "Archivage auto",
+      "default_auto_archive_duration": "Archivage auto par défaut",
+      "invitable": "Les membres peuvent inviter",
+      "enabled": "Activé",
+      "flags": "Indicateurs",
+      "video_quality_mode": "Qualité vidéo",
+      "rtc_region": "Région vocale",
+      "applied_tags": "Tags",
+      "default_reaction_emoji": "Réaction par défaut",
+      "available_tags": "Tags disponibles",
+      "default_thread_rate_limit_per_user": "Mode lent des fils",
+      "privacy_level": "Confidentialité",
+      "status": "Statut",
+      "entity_type": "Type de lieu",
+      "location": "Lieu",
+      "scheduled_start_time": "Début",
+      "scheduled_end_time": "Fin",
+      "trigger_metadata": "Déclencheur",
+      "actions": "Actions",
+      "exempt_roles": "Rôles exemptés",
+      "exempt_channels": "Salons exemptés",
+      "event_type": "Événement",
+      "volume": "Volume",
+      "emoji_id": "Émoji",
+      "emoji_name": "Émoji",
+      "sound_id": "Son",
+      "expire_behavior": "Comportement à l'expiration",
+      "expire_grace_period": "Période de grâce",
+      "allow": "Autorisé",
+      "deny": "Refusé",
+      "id": "ID"
+    },
+    "category": {
+      "messages": {
+        "label": "Messages",
+        "description": "Messages supprimés et modifiés, suppressions en masse et épinglages"
+      },
+      "roles": {
+        "label": "Rôles",
+        "description": "Rôles créés, modifiés ou supprimés, et rôles donnés ou retirés aux membres"
+      },
+      "server": {
+        "label": "Serveur",
+        "description": "Paramètres du serveur, salons, permissions, émojis, autocollants, invitations, webhooks, événements et intégrations"
+      },
+      "members": {
+        "label": "Membres",
+        "description": "Changements de pseudo, exclusions temporaires, expulsions, bannissements et débannissements"
+      }
+    },
+    "channelType": {
+      "Text": "Textuel",
+      "Voice": "Vocal",
+      "Category": "Catégorie",
+      "Announcement": "Annonces",
+      "Stage": "Conférence",
+      "Forum": "Forum",
+      "Media": "Médias",
+      "Thread": "Fil",
+      "Private thread": "Fil privé",
+      "Announcement thread": "Fil d'annonces"
+    },
+    "footer": "Log {category}",
+    "off": "Désactivé",
+    "noneValue": "*aucun*",
+    "changed": "modifié",
+    "noChange": "Aucun changement",
+    "member": "Membre",
+    "server": "Serveur",
+    "target": "Cible",
+    "added": "Ajoutés",
+    "removed": "Retirés",
+    "someone": "quelqu'un",
+    "channel": "Salon",
+    "for": "Pour",
+    "messages": "Messages",
+    "messageBy": "Message de",
+    "jump": "Aller au message",
+    "movedTo": "Déplacé vers",
+    "members": "Membres",
+    "pruned_one": "{count} membre inactif depuis {days} jour(s)",
+    "pruned_other": "{count} membres inactifs depuis {days} jour(s)",
+    "by": "Par",
+    "reason": "Raison",
+    "noDetails": "Aucun détail disponible.",
+    "msgDeleted": "🗑️ Message supprimé",
+    "author": "Auteur",
+    "uncached": "Ce message a été envoyé avant le démarrage du bot, son auteur et son contenu sont donc inconnus.",
+    "sent": "Envoyé",
+    "deletedBy": "Supprimé par",
+    "content": "Contenu",
+    "contentHidden": "Masqué : le bot n'a pas l'intent Message Content.",
+    "attachments": "Pièces jointes",
+    "msgEdited": "✏️ Message modifié",
+    "before": "Avant",
+    "after": "Après",
+    "notCached": "Absent du cache du bot (envoyé avant son démarrage).",
+    "empty": "vide",
+    "noText": "pas de texte",
+    "files_one": "{count} fichier",
+    "files_other": "{count} fichiers",
+    "beforeStart_one": "{count} envoyé avant le démarrage du bot",
+    "beforeStart_other": "{count} envoyés avant le démarrage du bot",
+    "needAuditLog": "Voir les logs du serveur (nécessaire pour savoir qui a fait les modifications)",
+    "needIn": "{permission} dans {channel}",
+    "permFlag": {
+      "CreateInstantInvite": "Créer une invitation",
+      "KickMembers": "Expulser des membres",
+      "BanMembers": "Bannir des membres",
+      "Administrator": "Administrateur",
+      "ManageChannels": "Gérer les salons",
+      "ManageGuild": "Gérer le serveur",
+      "AddReactions": "Ajouter des réactions",
+      "ViewAuditLog": "Voir les logs du serveur",
+      "PrioritySpeaker": "Voix prioritaire",
+      "Stream": "Vidéo",
+      "ViewChannel": "Voir le salon",
+      "SendMessages": "Envoyer des messages",
+      "SendTTSMessages": "Envoyer des messages de synthèse vocale",
+      "ManageMessages": "Gérer les messages",
+      "EmbedLinks": "Intégrer des liens",
+      "AttachFiles": "Joindre des fichiers",
+      "ReadMessageHistory": "Voir l'historique des messages",
+      "MentionEveryone": "Mentionner tout le monde",
+      "UseExternalEmojis": "Utiliser des émojis externes",
+      "ViewGuildInsights": "Voir les statistiques du serveur",
+      "Connect": "Se connecter",
+      "Speak": "Parler",
+      "MuteMembers": "Rendre les membres muets",
+      "DeafenMembers": "Mettre en sourdine des membres",
+      "MoveMembers": "Déplacer des membres",
+      "UseVAD": "Utiliser la détection de la voix",
+      "ChangeNickname": "Changer le pseudo",
+      "ManageNicknames": "Gérer les pseudos",
+      "ManageRoles": "Gérer les rôles",
+      "ManageWebhooks": "Gérer les webhooks",
+      "ManageEmojisAndStickers": "Gérer les émojis et les autocollants",
+      "ManageGuildExpressions": "Gérer les expressions",
+      "UseApplicationCommands": "Utiliser les commandes d'application",
+      "RequestToSpeak": "Demander la parole",
+      "ManageEvents": "Gérer les événements",
+      "ManageThreads": "Gérer les fils",
+      "CreatePublicThreads": "Créer des fils publics",
+      "CreatePrivateThreads": "Créer des fils privés",
+      "UseExternalStickers": "Utiliser des autocollants externes",
+      "SendMessagesInThreads": "Envoyer des messages dans les fils",
+      "UseEmbeddedActivities": "Utiliser les activités",
+      "ModerateMembers": "Exclure temporairement des membres",
+      "ViewCreatorMonetizationAnalytics": "Voir les analyses de monétisation des créateurs",
+      "UseSoundboard": "Utiliser la soundboard",
+      "CreateGuildExpressions": "Créer des expressions",
+      "CreateEvents": "Créer des événements",
+      "UseExternalSounds": "Utiliser des sons externes",
+      "SendVoiceMessages": "Envoyer des messages vocaux",
+      "SetVoiceChannelStatus": "Définir le statut du salon vocal",
+      "SendPolls": "Créer des sondages",
+      "UseExternalApps": "Utiliser des applications externes",
+      "PinMessages": "Épingler des messages",
+      "BypassSlowmode": "Ignorer le mode lent"
+    },
+    "cmd": {
+      "allLogs": "Tous les logs",
+      "typeLogs": "Les logs {type}",
+      "setDone": "✅ {what} seront désormais envoyés dans {channel}.",
+      "missing": "⚠️ Il me manque : {list}.",
+      "noContentNote": "Les messages supprimés indiquent qui les a envoyés et où, mais pas le texte, car le bot n'a pas l'intent Message Content.",
+      "allOff": "✅ Tous les logs sont maintenant désactivés.",
+      "typeOff": "✅ Les logs {type} sont maintenant désactivés.",
+      "ignored": "✅ Les messages de {channel} ne seront pas enregistrés.",
+      "unignored": "✅ Les messages de {channel} seront de nouveau enregistrés.",
+      "botsOn": "✅ Les messages de bots supprimés seront enregistrés.",
+      "botsOff": "✅ Les messages de bots supprimés ne seront pas enregistrés.",
+      "statusTitle": "📜 Logs du serveur",
+      "ignoredChannels": "Salons ignorés",
+      "botMessages": "Messages de bots supprimés",
+      "notLogged": "Non enregistrés",
+      "logged": "Enregistrés",
+      "messageText": "Texte des messages",
+      "shown": "Affiché",
+      "hidden": "Masqué (pas d'intent Message Content)",
+      "missingPerms": "⚠️ Permissions manquantes"
+    }
+  },
+  "lockdown": {
+    "needPerms": "❌ J'ai besoin des permissions **Gérer les salons** et **Gérer les rôles** pour verrouiller des salons.",
+    "statusTitle": "🔒 Salons verrouillés",
+    "byWhen": "par {user} {time}",
+    "nothingLocked": "Rien n'est verrouillé.",
+    "cantLock": "❌ Ce type de salon ne peut pas être verrouillé.",
+    "alreadyLocked": "{channel} est déjà verrouillé. Utilise `/lockdown end` pour le déverrouiller.",
+    "lockedTitle": "🔒 Ce salon est verrouillé",
+    "lockedText": "Seul le staff peut parler ici pour le moment.\n**Raison :** {reason}",
+    "logLocked": "🔒 Salon verrouillé",
+    "logLockedText": "**Salon :** {channel}\n**Par :** {user}\n**Raison :** {reason}",
+    "lockedDone": "🔒 {channel} verrouillé.",
+    "noTargets": "Il n'y a aucun salon où @everyone peut parler.",
+    "serverTitle": "🔒 Le serveur est verrouillé",
+    "serverText": "Seul le staff peut parler pour le moment.\n**Raison :** {reason}",
+    "logServer": "🚨 Verrouillage du serveur",
+    "logServerText": "**Salons verrouillés :** {count}\n**Par :** {user}\n**Raison :** {reason}",
+    "serverDone_one": "🚨 **Verrouillage du serveur lancé.** {count} salon verrouillé.",
+    "serverDone_other": "🚨 **Verrouillage du serveur lancé.** {count} salons verrouillés.",
+    "couldntLock": "⚠️ Impossible de verrouiller : {list}",
+    "endHint": "Termine-le avec `/lockdown end`.",
+    "notLockedByMe": "{channel} n'a pas été verrouillé par moi.",
+    "unlockedTitle": "🔓 Salon déverrouillé",
+    "unlockedText": "Tu peux de nouveau parler ici.",
+    "logUnlocked": "🔓 Salon déverrouillé",
+    "logUnlockedText": "**Salon :** {channel}\n**Par :** {user}",
+    "unlockedDone": "🔓 {channel} déverrouillé.",
+    "overTitle": "🔓 Fin du verrouillage",
+    "logEnded": "🔓 Verrouillage terminé",
+    "logEndedText": "**Salons déverrouillés :** {count}\n**Par :** {user}",
+    "endDone_one": "🔓 Fin du verrouillage. {count} salon déverrouillé, ses permissions sont revenues comme avant.",
+    "endDone_other": "🔓 Fin du verrouillage. {count} salons déverrouillés, leurs permissions sont revenues comme avant."
+  },
+  "case": {
+    "recentTitle": "📋 Cas récents",
+    "none": "Aucun cas pour l'instant.",
+    "notFound": "❌ Le cas n° {number} n'existe pas.",
+    "reasonChangedTitle": "✏️ Raison du cas n° {number} modifiée",
+    "reasonChangedText": "**Avant :** {before}\n**Après :** {after}\n**Par :** {user}",
+    "reasonUpdated": "✅ Raison du cas n° {number} mise à jour.",
+    "title": "Cas n° {number} · {type}",
+    "when": "Quand",
+    "edited": "Modifié",
+    "editedValue_one": "{count} fois, la dernière par {user}",
+    "editedValue_other": "{count} fois, la dernière par {user}"
+  },
+  "note": {
+    "saved": "📝 Note n° {id} enregistrée sur {user}.",
+    "title": "📝 Notes sur {user}",
+    "none": "Aucune note.",
+    "deleted": "🗑️ Note n° {id} supprimée.",
+    "notFound": "❌ La note n° {id} n'existe pas."
+  },
+  "remind": {
+    "badTime": "❌ Utilise une durée entre 1 minute et 1 an, comme `10m`, `2h`, `1d 6h` ou `2w`.",
+    "setHere": "⏰ C'est noté ! Je te le rappellerai {relative} ({exact}, dans {duration}) ici. ID : `{id}`",
+    "setDm": "⏰ C'est noté ! Je te le rappellerai {relative} ({exact}, dans {duration}) en MP. ID : `{id}`",
+    "limit": "Tu peux avoir au maximum {max} rappels. Supprimes-en avec `/remind delete`.",
+    "listTitle": "⏰ Tes rappels",
+    "inChannel": "(dans le salon)",
+    "byDm": "(MP)",
+    "none": "Aucun rappel. Crées-en un avec `/remind me`.",
+    "deleted": "🗑️ Rappel `{id}` supprimé.",
+    "notFound": "❌ Tu n'as aucun rappel à venir `{id}`.",
+    "title": "⏰ Rappel",
+    "setAt": "Créé",
+    "couldntDm": "(je n'ai pas pu t'envoyer de MP)"
+  },
+  "leveling": {
+    "defaultMessage": "🎉 {user} a atteint le **niveau {level}** !",
+    "unlocked": "Tu as débloqué {roles} !",
+    "inServer": "(sur **{server}**)"
+  },
+  "levels": {
+    "lbTitle": "🏆 Classement de {server}",
+    "lbLine": "Niveau **{level}** · {xp} XP",
+    "lbEmpty": "Personne n'a encore d'XP. Commencez à discuter !",
+    "lbFooter_one": "Page {page}/{pages} · {count} membre classé",
+    "lbFooter_other": "Page {page}/{pages} · {count} membres classés",
+    "off": "Les niveaux sont désactivés sur ce serveur.",
+    "whereCurrent": "Dans le même salon",
+    "whereChannelUnset": "Un salon défini (non choisi)",
+    "whereDm": "En MP",
+    "settingsTitle": "📈 Paramètres des niveaux",
+    "fieldLeveling": "Niveaux",
+    "fieldMessages": "Messages de montée de niveau",
+    "fieldXp": "XP par message",
+    "xpValue": "{min}–{max}, une fois par minute ({multiplier}× pour les votants)",
+    "fieldMessage": "Message",
+    "fieldRoles": "Rôles de niveau",
+    "levelN": "Niveau {level}",
+    "noRoles": "Aucun. Ajoute-en avec `/levels role-add`.",
+    "fieldNoXp": "Pas d'XP dans",
+    "enabledOn": "✅ Les niveaux sont **activés**. Les membres gagnent de l'XP en discutant (une fois par minute) et les votants gagnent {multiplier}× d'XP. Essaie `/rank` et définis des récompenses avec `/levels role-add`.",
+    "enabledOff": "✅ Les niveaux sont **désactivés**. Tout le monde garde son XP au cas où tu les réactives.",
+    "pickChannel": "❌ Choisis aussi un `channel`.",
+    "savedPreview": "✅ Enregistré. Aperçu :",
+    "roleCantGive": "❌ Ce rôle ne peut pas être attribué.",
+    "roleTooHigh": "❌ {role} est au-dessus de mon rôle le plus haut, je ne peux donc pas le donner. Monte d'abord mon rôle.",
+    "roleAdded": "✅ Les membres recevront {role} au niveau **{level}**. Ceux qui ont déjà ce niveau le recevront à leur prochaine montée de niveau.",
+    "roleRemoved": "✅ {role} n'est plus une récompense de niveau.",
+    "ignored": "✅ Plus d'XP dans {channel}.",
+    "unignored": "✅ {channel} donne de nouveau de l'XP.",
+    "levelSet": "✅ {user} est maintenant niveau **{level}** ({xp} XP).",
+    "resetConfirm": "Pas de réinitialisation. Tape exactement `RESET` pour confirmer.",
+    "resetDone_one": "✅ XP effacée pour {count} membre.",
+    "resetDone_other": "✅ XP effacée pour {count} membres."
+  },
+  "rank": {
+    "off": "Les niveaux sont désactivés sur ce serveur. Un admin peut les activer avec `/levels enable`.",
+    "bots": "Les bots ne gagnent pas d'XP.",
+    "author": "Rang de {user}",
+    "level": "Niveau",
+    "rank": "Rang",
+    "unranked": "Non classé",
+    "messages": "Messages",
+    "progress": "Progression vers le niveau {level}",
+    "totalXp": "{xp} XP au total",
+    "nextReward": "Prochaine récompense",
+    "nextRewardValue": "{role} au niveau {level}",
+    "boost": "Bonus d'XP",
+    "boostActive": "💜 Bonus de votant actif : {multiplier}× d'XP",
+    "boostHint": "Vote avec `/vote` pour {multiplier}× d'XP pendant 12 heures."
+  },
+  "giveaway": {
+    "winnersLabel_one": "Gagnant",
+    "winnersLabel_other": "Gagnants",
+    "noEntries": "Aucune participation valide, personne n'a gagné.",
+    "ended": "Terminé",
+    "ends": "Se termine",
+    "winnersCount": "Gagnants",
+    "hostedBy": "Organisé par",
+    "mustHave": "Requis",
+    "voterBonus": "💜 **Les votants ont une participation bonus !** Vote avec `/vote`.",
+    "entries_one": "{count} participation",
+    "entries_other": "{count} participations",
+    "endedShort": "Terminé",
+    "enter": "Participer ({count})",
+    "gone": "❌ Ce giveaway n'existe plus.",
+    "over": "Ce giveaway est terminé.",
+    "left": "Tu as quitté le giveaway.",
+    "already": "Tu participes déjà. Bonne chance !",
+    "alreadyBonus": "Tu participes déjà avec une participation bonus 💜 de votant. Bonne chance !",
+    "leave": "Quitter le giveaway",
+    "needRole": "❌ Tu as besoin du rôle {role} pour participer.",
+    "alreadyShort": "Tu participes déjà.",
+    "joined": "🎉 Tu participes !",
+    "joinedBonus": "💜 Tu as obtenu une participation bonus pour avoir voté.",
+    "joinedHint": "La prochaine fois, vote avec `/vote` avant de participer pour obtenir une participation bonus.",
+    "congrats_one": "🎉 Félicitations {users} ! Tu as gagné **{prize}** !",
+    "congrats_other": "🎉 Félicitations {users} ! Vous avez gagné **{prize}** !",
+    "congratsReroll_one": "🎉 Félicitations {users} ! Tu es le nouveau gagnant de **{prize}** !",
+    "congratsReroll_other": "🎉 Félicitations {users} ! Vous êtes les nouveaux gagnants de **{prize}** !",
+    "nobody": "😢 Personne n'a pu gagner **{prize}** : pas assez de participations.",
+    "nobodyElse": "😢 Personne d'autre n'a pu gagner **{prize}** : pas assez de participations.",
+    "badDuration": "❌ Utilise une durée entre 30 secondes et 60 jours, comme `30m`, `2h`, `1d 12h` ou `1w`.",
+    "cantPost": "❌ Je n'ai pas pu publier dans {channel} : {error}",
+    "started": "🎉 Giveaway lancé dans {channel} ! Il se termine dans {duration}.",
+    "listTitle": "🎉 Giveaways en cours",
+    "endsAt": "se termine {time}",
+    "noneRunning": "Aucun giveaway en cours. Lances-en un avec `/giveaway start`.",
+    "notFound": "❌ Je ne trouve pas ce giveaway. Utilise l'ID du message depuis `/giveaway list`.",
+    "alreadyEnded": "Ce giveaway est déjà terminé. Utilise `/giveaway reroll` pour de nouveaux gagnants.",
+    "alreadyEnding": "Ce giveaway est déjà en train de se terminer.",
+    "endedWinners_one": "✅ **{prize}** terminé. Gagnant : {users}",
+    "endedWinners_other": "✅ **{prize}** terminé. Gagnants : {users}",
+    "endedNobody": "✅ **{prize}** terminé. Personne n'a participé.",
+    "notEnded": "Ce giveaway n'est pas encore terminé. Utilise d'abord `/giveaway end`.",
+    "newWinners_one": "✅ Nouveau gagnant : {users}",
+    "newWinners_other": "✅ Nouveaux gagnants : {users}",
+    "nobodyLeft": "❌ Il ne restait personne à tirer au sort.",
+    "alreadyEndedShort": "Ce giveaway est déjà terminé.",
+    "cancelledTitle": "🚫 {prize} (annulé)",
+    "cancelled": "✅ **{prize}** annulé."
+  },
+  "suggestions": {
+    "status": {
+      "pending": "Ouverte aux votes",
+      "approved": "Approuvée",
+      "denied": "Refusée",
+      "considering": "À l'étude",
+      "implemented": "Mise en place"
+    },
+    "title": "Suggestion n° {number}",
+    "statusField": "Statut",
+    "votesField": "Votes",
+    "anonymous": "Suggestion anonyme",
+    "responseFrom": "Réponse de {user}",
+    "staff": "le staff",
+    "gone": "❌ Cette suggestion n'existe plus.",
+    "closed": "Le vote sur cette suggestion est fermé.",
+    "notSetUp": "Ce serveur n'a pas encore configuré les suggestions. Un admin peut le faire avec `/suggestions channel`.",
+    "cantPost": "❌ Je ne peux pas publier dans {channel}. Demande à un admin de vérifier mes permissions là-bas.",
+    "posted": "✅ Ta suggestion a été publiée : {link}.",
+    "channelSet": "✅ Les suggestions de `/suggest` seront publiées dans {channel}.",
+    "channelSetThreads": "✅ Les suggestions de `/suggest` seront publiées dans {channel}, chacune avec son propre fil de discussion.",
+    "off": "✅ Les suggestions sont désactivées.",
+    "notFound": "❌ La suggestion n° {number} n'existe pas.",
+    "author": "La suggestion n° {number} a été publiée par {user}.",
+    "authorAnon": "La suggestion n° {number} a été publiée anonymement par {user}.",
+    "dmTitle": {
+      "approved": "Ta suggestion sur {server} a été approuvée",
+      "denied": "Ta suggestion sur {server} a été refusée",
+      "considering": "Ta suggestion sur {server} est à l'étude",
+      "implemented": "Ta suggestion sur {server} a été mise en place"
+    },
+    "response": "Réponse",
+    "view": "Voir la suggestion",
+    "nowStatus": "La suggestion n° {number} est maintenant **{status}**."
+  },
+  "roles": {
+    "layout": {
+      "list": "Liste (rôle, description et bouton sur chaque ligne)",
+      "buttons": "Boutons (rangées de boutons)",
+      "menu": "Menu déroulant"
+    },
+    "mode": {
+      "multiple": "Choix multiple",
+      "single": "Un seul choix",
+      "add-only": "Impossible à retirer une fois choisi"
+    },
+    "problem": {
+      "everyone": "@everyone ne peut pas être utilisé.",
+      "managed": "{role} est géré par une intégration ou un bot, il ne peut donc pas être attribué.",
+      "dangerous": "{role} a des permissions de modération ({perms}), il ne peut donc pas être auto-attribué.",
+      "aboveBot": "{role} est au-dessus de mon rôle le plus haut. Monte mon rôle dans Paramètres du serveur > Rôles.",
+      "aboveYou": "{role} est au-dessus de ton rôle le plus haut."
+    },
+    "footer": {
+      "upTo": "jusqu'à {count}",
+      "needs": "requiert {role}",
+      "menu": "Choisis dans le menu pour mettre à jour tes rôles",
+      "clickAgain": "Clique à nouveau pour retirer un rôle",
+      "clickGet": "Clique pour obtenir un rôle"
+    },
+    "noRolesYet": "Aucun rôle pour l'instant. Le staff peut en ajouter avec `/buttonroles add`.",
+    "pickOne": "Choisis un rôle",
+    "pickMany": "Choisis tes rôles",
+    "roleGone": "Ce rôle n'existe plus.",
+    "added": "Ajouté : {roles}",
+    "removed": "Retiré : {roles}",
+    "nothingChanged": "Rien n'a changé.",
+    "yourRoles": "Tes rôles de ce panneau : {roles}",
+    "panelGone": "❌ Ce panneau de rôles ne fonctionne plus. Demande à un membre du staff d'en créer un nouveau.",
+    "needRole": "❌ Tu as besoin du rôle {role} pour utiliser ce panneau.",
+    "notOnPanel": "❌ Ce rôle n'est plus sur ce panneau.",
+    "addOnlyHave": "Tu as déjà {role}. Les rôles de ce panneau ne peuvent pas être retirés.",
+    "maxReached_one": "❌ Tu ne peux avoir que {count} rôle de ce panneau. Retires-en un d'abord.",
+    "maxReached_other": "❌ Tu ne peux avoir que {count} rôles de ce panneau. Retires-en un d'abord.",
+    "check": {
+      "needTitle": "Le panneau a besoin d'un titre.",
+      "titleLong": "Le titre peut faire au maximum 200 caractères.",
+      "descLong": "La description peut faire au maximum 1500 caractères.",
+      "badLayout": "Choisis une disposition : list, buttons ou menu.",
+      "badMode": "Choisis un mode : multiple, single ou add-only.",
+      "badColor": "La couleur doit être un code hex comme `#8054e6`.",
+      "badImage": "L'image doit être un lien `https://` vers une image.",
+      "badMax": "Le maximum doit être compris entre 0 (sans limite) et 25.",
+      "tooManyForLayout": "La disposition {layout} accepte au maximum {max} rôles et ce panneau en a {count}. Utilise la disposition boutons ou menu.",
+      "duplicate": "Le même rôle est deux fois sur le panneau.",
+      "needLabel": "Chaque rôle a besoin d'un libellé.",
+      "roleDescLong": "La description de \"{label}\" peut faire au maximum 100 caractères.",
+      "tooBig": "Ce panneau serait trop grand pour Discord ({size}/40 éléments). Retire des rôles ou des descriptions.",
+      "tooMuchText": "Ce panneau contient trop de texte pour Discord ({chars}/4000 caractères). Raccourcis la description ou les descriptions des rôles.",
+      "roleMissing": "Un rôle du panneau n'existe plus ({label}).",
+      "requiredMissing": "Le rôle requis n'existe plus."
+    },
+    "cmd": {
+      "needManageRoles": "❌ J'ai besoin de la permission **Gérer les rôles** pour les panneaux de rôles.",
+      "cantPost": "❌ Je n'ai pas pu publier dans {channel} : {error}",
+      "posted": "✅ Panneau publié dans {channel}. Ajoute maintenant des rôles :\n{example}",
+      "listTitle": "🎛️ Panneaux de rôles",
+      "defaultTitle": "Panneau de rôles",
+      "inChannel": "dans {channel}",
+      "max": "max. {count}",
+      "noRoles": "pas encore de rôles",
+      "noPanels": "Aucun panneau pour l'instant. Crées-en un avec `/buttonroles create`.",
+      "notPanel": "❌ Ce n'est pas un panneau de rôles. Utilise l'ID du message depuis `/buttonroles list`.",
+      "deleted": "🗑️ Panneau supprimé. Les membres gardent les rôles qu'ils ont déjà choisis.",
+      "alreadyOn": "{role} est déjà sur ce panneau.",
+      "notOn": "{role} n'est pas sur ce panneau.",
+      "badEmoji": "Cet émoji n'est pas valide (les émojis personnalisés doivent venir d'un serveur où je suis).",
+      "badImage": "Discord n'a pas pu charger ce lien d'image.",
+      "messageGone": "Le message du panneau a été supprimé sur Discord. Supprime ce panneau et crées-en un nouveau.",
+      "addedRole": "✅ {role} ajouté au panneau.",
+      "removedRole": "✅ {role} retiré du panneau.",
+      "updated": "✅ Panneau mis à jour."
+    }
+  },
+  "automod": {
+    "syncFailed": "⚠️ Réglage enregistré, mais la synchronisation avec l'AutoMod Discord a échoué :",
+    "logFallback": "*Utilise le salon des logs de /setup (s'il est configuré)*",
+    "stepTimeout": "{count} → exclusion de {minutes} min",
+    "stepKick": "{count} → expulsion",
+    "stepBan": "{count} → bannissement",
+    "filter": {
+      "profanity": "Grossièretés",
+      "sexual": "Sexuel",
+      "slurs": "Insultes"
+    },
+    "filterLong": {
+      "profanity": "grossièretés",
+      "sexual": "contenu sexuel",
+      "slurs": "insultes"
+    },
+    "statusTitle": "🛡️ Configuration de l'automod",
+    "statusCurrent": "Paramètres actuels de l'automod pour **{server}**",
+    "syncOffWarning": "⚠️ **La synchronisation avec l'AutoMod Discord est désactivée.** L'anti-liens d'arnaque, la restriction @everyone/@here, les filtres de mots et le filtre de liens ne fonctionnent qu'avec l'AutoMod natif de Discord : sans synchronisation, ils sont en pratique désactivés. Réactive-la avec `/automod toggle feature:Sync to Discord AutoMod state:True`.",
+    "field": {
+      "flood": "Flood de messages",
+      "wordFilters": "Filtres de mots",
+      "linkFilter": "Filtre de liens",
+      "strikes": "Sanctions",
+      "allowedLinks": "Liens autorisés",
+      "exemptChannels": "Salons exemptés",
+      "bypassRoles": "Rôles exemptés",
+      "blacklist": "Liste noire personnalisée",
+      "logChannel": "Salon des logs"
+    },
+    "floodValue": "{messages} messages / {seconds} s",
+    "floodTimeout": "exclusion de {minutes} min",
+    "deleteOnly": "suppression seulement",
+    "allLinks": "Tous les liens",
+    "invites": "Invitations",
+    "forgottenAfter": "(oubliées après {days} j)",
+    "feature": {
+      "enabled": "Automod",
+      "antiScam": "Filtre anti-liens d'arnaque",
+      "antiEveryone": "Restriction @everyone/@here",
+      "antiMassMention": "Protection contre les mentions de masse",
+      "useDiscordAutomod": "Synchronisation AutoMod Discord"
+    },
+    "toggledOn": "✅ {feature} est maintenant **activé**.",
+    "toggledOff": "✅ {feature} est maintenant **désactivé**.",
+    "bypassAdded": "✅ {role} peut maintenant ignorer les restrictions de l'automod.",
+    "bypassRemoved": "✅ {role} n'ignore plus les restrictions de l'automod.",
+    "blacklistEmpty": "Aucune entrée personnalisée.",
+    "blacklistTitle": "Entrées de la liste noire personnalisée :",
+    "blacklistNeedEntry": "❌ Tu dois fournir un `entry` (domaine ou mot-clé) pour ajouter ou retirer.",
+    "blacklistAdded": "✅ `{entry}` ajouté à la liste noire de l'automod.",
+    "blacklistRemoved": "✅ `{entry}` retiré de la liste noire de l'automod.",
+    "logSet": "✅ Les alertes de l'automod seront désormais envoyées dans {channel}.",
+    "logCleared": "✅ Salon des logs de l'automod effacé. Les alertes utiliseront le salon des logs de /setup s'il est configuré.",
+    "floodOn": "✅ La protection anti-flood est **activée** : {messages} messages en {seconds} s sont supprimés.",
+    "floodOnTimeout": "✅ La protection anti-flood est **activée** : {messages} messages en {seconds} s sont supprimés avec une exclusion de {minutes} minutes.",
+    "floodOff": "✅ La protection anti-flood est **désactivée**.",
+    "wordFiltersOn": "✅ Les listes de mots de Discord sont activées pour : **{list}**.",
+    "wordFiltersOff": "✅ Les listes de mots de Discord sont **désactivées**.",
+    "linksAll": "✅ **Tous les liens** sont maintenant bloqués, sauf les sites autorisés (`/automod allow-link`).",
+    "linksInvites": "✅ Les invitations vers d'autres serveurs sont maintenant bloquées. Ajoute ta propre invitation avec `/automod allow-link`.",
+    "linksOff": "✅ Le filtre de liens est **désactivé**.",
+    "allowTitle": "Toujours autorisés :",
+    "allowEmpty": "Rien dans la liste des autorisés.",
+    "allowNeedEntry": "❌ Donne un `entry`, comme `youtube.com`.",
+    "allowAdded": "✅ `{entry}` est maintenant toujours autorisé.",
+    "allowRemoved": "✅ `{entry}` retiré de la liste des autorisés.",
+    "exemptAdded": "✅ L'automod est maintenant désactivé dans {channel}.",
+    "exemptRemoved": "✅ L'automod est de nouveau actif dans {channel}.",
+    "noPunishments": "aucune sanction définie",
+    "strikesOn": "✅ Les sanctions sont **activées**. Chaque déclenchement de l'automod compte comme une sanction : {steps}. Les sanctions sont oubliées après {days} jours.",
+    "strikesOff": "✅ Les sanctions sont **désactivées**.",
+    "strikesCleared": "✅ Sanctions de {user} effacées.",
+    "noStrikes": "{user} n'a aucune sanction.",
+    "userStrikes_one": "**{user}** a **{count}** sanction sur les {days} derniers jours.",
+    "userStrikes_other": "**{user}** a **{count}** sanctions sur les {days} derniers jours.",
+    "strikesOffNote": "Les sanctions sont désactivées, rien de nouveau n'est compté.",
+    "error": "❌ Un problème est survenu lors de la mise à jour des paramètres de l'automod.",
+    "btn": {
+      "warn": "Avertir",
+      "mute": "Rendre muet",
+      "kick": "Expulser",
+      "tempban": "Bannissement temporaire",
+      "ban": "Bannir",
+      "ignore": "Ignorer / Aucune action"
+    },
+    "footer": "Automod Maximum Studios",
+    "floodWarning": "{user}, ralentis ! Tu envoies des messages trop vite.",
+    "floodTimedOut_one": "Tu as été exclu pendant {count} minute.",
+    "floodTimedOut_other": "Tu as été exclu pendant {count} minutes.",
+    "floodCount": "{count} en {seconds} s (supprimés)",
+    "timeoutLabel": "Exclusion",
+    "noTimeout": "aucune (désactivée ou permission manquante)",
+    "massMentionWarning": "{user}, merci de ne pas mentionner en masse des utilisateurs ou des rôles.",
+    "mentions": "Mentions",
+    "alert": {
+      "flood": "🌊 Automod : flood de messages",
+      "massMention": "🚫 Automod : mention de masse",
+      "scam": "🚨 Automod : lien ou mot-clé suspect bloqué",
+      "word": "🤬 Automod : mot filtré bloqué",
+      "link": "🔗 Automod : lien bloqué",
+      "everyone": "🚫 Automod : @everyone/@here non autorisé",
+      "blocked": "🛡️ Automod : message bloqué"
+    },
+    "reason": {
+      "flood": "Flood de messages",
+      "massMention": "Mention de masse",
+      "scam": "Lien ou mot-clé suspect bloqué",
+      "word": "Mot filtré bloqué",
+      "link": "Lien bloqué",
+      "everyone": "@everyone/@here non autorisé",
+      "blocked": "Message bloqué"
+    },
+    "matched": "Motif détecté",
+    "message": "Message",
+    "blockedText": "Le message a été bloqué par l'AutoMod de Discord avant même d'être publié.",
+    "blockedNoContent": "Le texte exact du message n'est pas affiché ici car l'intent Message Content n'est pas disponible ; le motif ci-dessus est ce qui a correspondu.",
+    "selectAction": "Choisis ci-dessous une action à prendre contre cet utilisateur.",
+    "noActionPerm": "❌ Tu n'as pas la permission d'effectuer des actions de l'automod.",
+    "actionTaken": "Action effectuée",
+    "result": {
+      "ignored": "Ignoré par {user}",
+      "warned": "Averti par {user}",
+      "muted": "Rendu muet 1 heure par {user}",
+      "kicked": "Expulsé par {user}",
+      "tempbanned": "Banni temporairement {days} j par {user}",
+      "banned": "Banni par {user}"
+    },
+    "memberGone": "❌ Membre introuvable (il est peut-être parti).",
+    "actionFailed": "❌ Échec de l'action {action} : {error}",
+    "dm": {
+      "warnTitle": "⚠️ Avertissement reçu",
+      "warnText": "Tu as reçu un avertissement sur **{server}** pour un message supprimé par l'automod.\nMerci de relire les règles du serveur.",
+      "muteTitle": "🔇 Tu as été rendu muet",
+      "muteText": "Tu as été rendu muet pendant **1 heure** sur **{server}** suite à une alerte de l'automod.",
+      "kickTitle": "👢 Tu as été expulsé",
+      "kickText": "Tu as été expulsé de **{server}** suite à une alerte de l'automod.",
+      "tempbanTitle": "⏳ Tu as été banni temporairement",
+      "tempbanText": "Tu as été banni temporairement de **{server}** pendant **{days} jour(s)** suite à une alerte de l'automod.",
+      "banTitle": "🔨 Tu as été banni",
+      "banText": "Tu as été banni de **{server}** suite à une alerte de l'automod."
+    }
+  },
+  "strikes": {
+    "recorded": "Sanction {count} enregistrée.",
+    "timedOut": "Sanction {count} : exclu pendant {minutes} minutes.",
+    "kicked": "Sanction {count} : expulsé.",
+    "banned": "Sanction {count} : banni.",
+    "noPermission": "Sanction {count} : je voulais {action}, mais je n'ai pas la permission (ou son rôle est au-dessus du mien).",
+    "failed": "Sanction {count} : échec de {action} ({error}).",
+    "dmKicked": "Tu as été expulsé de **{server}** après {count} sanctions de l'automod.",
+    "dmBanned": "Tu as été banni de **{server}** après {count} sanctions de l'automod.",
+    "logTitle": "⚖️ Limite de sanctions de l'automod atteinte",
+    "strikesLabel": "Sanctions",
+    "inLastDays": "{count} sur les {days} derniers jours",
+    "resultLabel": "Résultat",
+    "lastReason": "Dernière raison"
+  },
+  "support": {
+    "modalTitle": "Contacter le support Maximum Studios",
+    "subject": "Sujet",
+    "describe": "Décris ton problème",
+    "unavailable": "Le support est indisponible pour le moment. Réessaie plus tard ou contacte-nous sur {url}",
+    "alreadyOpen": "Tu as déjà un ticket ouvert : **n° {number}**. Réponds à mon MP pour le compléter, ou attends qu'il soit fermé avant d'en ouvrir un nouveau.",
+    "alreadyOpenShort": "Tu as déjà un ticket ouvert. Attends qu'il soit fermé avant d'en ouvrir un nouveau.",
+    "createFailed": "Un problème est survenu lors de la création de ton ticket. Réessaie plus tard.",
+    "created": "Ton ticket de support **n° {number}** a été créé. Notre équipe te répondra ici par MP. Envoie simplement des messages dans ce MP (ou utilise la réponse de Discord) pour compléter ton ticket : tout ce que tu envoies va au support jusqu'à la fermeture du ticket. Tape `{close}` là-bas pour le fermer toi-même.",
+    "closeWord": "fermer ticket",
+    "closedTitle": "Ticket n° {number} fermé",
+    "closedByYou": "Tu as fermé ton ticket de support **{subject}**. Si tu as besoin d'aide, ouvre un nouveau ticket avec /support.",
+    "closedByStaff": "Ton ticket de support **{subject}** a été fermé. Si tu as besoin d'aide, ouvre un nouveau ticket avec /support.",
+    "footer": "Support Maximum Studios",
+    "replyTitle": "Réponse au ticket n° {number} : {subject}",
+    "replyFooter": "Support Maximum Studios | Réponds ici pour répondre, ou tape \"{close}\" pour le fermer",
+    "historyTitle": "Ton historique de tickets de support",
+    "historyEmpty": "Tu n'as encore ouvert aucun ticket de support. Utilise /support pour en ouvrir un.",
+    "statusOpen": "Ouvert",
+    "statusClosed": "Fermé"
+  },
+  "cc": {
+    "scan": {
+      "pattern": "correspond à un motif d'arnaque connu (`{match}`)",
+      "blacklist": "renvoie vers un domaine de la liste noire de l'automod de ce serveur (`{entry}`)",
+      "domain": "renvoie vers un domaine correspondant à un motif d'arnaque connu (`{url}`)"
+    },
+    "err": {
+      "btnList": "Les boutons doivent être une liste.",
+      "btnMax": "Une commande peut avoir au maximum {max} boutons.",
+      "btnInvalid": "Le bouton {n} n'est pas valide.",
+      "btnLabel": "Le bouton {n} a besoin d'un libellé.",
+      "btnLabelLong": "Le libellé du bouton {n} doit faire {max} caractères ou moins.",
+      "btnStyle": "Le style du bouton {n} doit être \"link\" ou \"reply\".",
+      "btnUrl": "Le bouton {n} a besoin d'une URL http(s) valide.",
+      "btnReply": "Le bouton {n} a besoin d'un texte de réponse.",
+      "btnReplyLong": "Le texte de réponse du bouton {n} doit faire {max} caractères ou moins.",
+      "trigger": "Le déclencheur est obligatoire.",
+      "triggerLong": "Le déclencheur doit faire {max} caractères ou moins.",
+      "type": "Le type de réponse doit être \"text\" ou \"embed\".",
+      "text": "Le contenu de la réponse texte est obligatoire.",
+      "textLong": "Le contenu doit faire {max} caractères ou moins.",
+      "embedEmpty": "Une réponse embed nécessite un titre et/ou une description.",
+      "embedTitle": "Le titre de l'embed doit faire 256 caractères ou moins.",
+      "embedDesc": "La description de l'embed doit faire {max} caractères ou moins.",
+      "embedFooter": "Le pied de l'embed doit faire 2048 caractères ou moins.",
+      "embedAuthor": "Le nom d'auteur de l'embed doit faire 256 caractères ou moins.",
+      "embedThumb": "La miniature de l'embed doit être une URL http(s) valide.",
+      "embedImage": "L'image de l'embed doit être une URL http(s) valide."
+    },
+    "blocked": "Cette commande a été bloquée : elle {reason}. S'il s'agit d'une erreur, retire le lien ou le texte signalé et réessaie.",
+    "notFoundTrigger": "Aucune commande personnalisée avec ce déclencheur sur ce serveur.",
+    "scamTitle": "Attention !",
+    "scamText": "Cette commande personnalisée est une arnaque, ne fais confiance à aucun lien envoyé ici !",
+    "scamFooter": "Maximum Studios 2018 - 2026 (Rendre Discord plus sûr)",
+    "flaggedTitle": "🚨 Commande personnalisée signalée",
+    "restoredTitle": "✅ Commande personnalisée rétablie",
+    "flaggedText": "La commande personnalisée `{trigger}` de ce serveur a été signalée comme arnaque et désactivée : quiconque la lance voit maintenant un avertissement. Vérifie qui l'a mise en place.",
+    "restoredText": "La commande personnalisée `{trigger}` de ce serveur a été vérifiée et rétablie.",
+    "notFound": "Aucune commande personnalisée nommée `{trigger}` ici.",
+    "sendFailed": "Un problème est survenu lors de l'envoi de cette commande.",
+    "buttonGone": "Ce bouton ne fonctionne plus (la commande a peut-être été modifiée ou supprimée)."
+  },
+  "honeypot": {
+    "title": "⚠️ N'ENVOIE PAS DE MESSAGES DANS CE SALON",
+    "text": "Ce salon est un piège.\n\n**Envoyer un message ici te fera bannir immédiatement** de **{server}**, sans avertissement ni exception.\n\nLes réactions sont sans danger et ne comptent pas.",
+    "counter_one": "{count} utilisateur banni",
+    "counter_other": "{count} utilisateurs bannis",
+    "channelName": "🍯・ne-pas-lire",
+    "topic": "N'envoie pas de messages dans ce salon : tu seras banni. Les réactions sont sans danger.",
+    "dmText": "Tu as été banni de **{server}** pour avoir envoyé un message dans un salon explicitement marqué comme piège à bannissement.",
+    "logTitle": "🍯 Honeypot déclenché",
+    "totalCaught": "Total attrapés"
+  },
+  "voteAnnounce": {
+    "someone": "Quelqu'un",
+    "progress_one": "Ça fait déjà **{count}** point de vote !",
+    "progress_other": "Ça fait déjà **{count}** points de vote !",
+    "progressStreak_one": "Ça fait déjà **{count}** point de vote et une **série de {streak} jours** 🔥 !",
+    "progressStreak_other": "Ça fait déjà **{count}** points de vote et une **série de {streak} jours** 🔥 !",
+    "unlocked": "🎉 Nouveau badge débloqué : {badge}",
+    "testTitle": "🧪 Vote de test depuis {site}",
+    "title": "💜 Nouveau vote sur {site} !",
+    "testText": "Test du webhook lancé par {user} ({name}). Les votes sont bien reçus.",
+    "thanks": "Merci {user} (**{name}**) d'avoir voté pour **{bot}** !",
+    "weekend": "Les votes du week-end comptent double ! 🎉",
+    "perks": "Tu as le badge **{badge}**, des temps de recharge réduits et un bonus d'XP pendant les 12 prochaines heures.",
+    "perksRole": "Tu as le badge **{badge}** et le rôle {role}, des temps de recharge réduits et un bonus d'XP pendant les 12 prochaines heures.",
+    "voteOn": "Voter sur {site}",
+    "reminderHint": "Reçois un MP quand tu peux revoter : `/vote reminder`",
+    "monthlyTitle": "🏆 Meilleurs votants de {month}",
+    "monthlyText": "Merci ! Chacun de vous reçoit le badge permanent 🏆 **Meilleur votant** sur `/userinfo`.\nUn nouveau mois commence, tout le monde repart de 0. Vote ci-dessous pour prendre la première place !"
+  },
+  "slash": {
+    "apiping": {
+      "desc": "Vérifie la vitesse de réponse du bot, de Discord, de notre base de données et de nos sites"
+    },
+    "automod": {
+      "desc": "Configure l'automod de ce serveur",
+      "status": {
+        "desc": "Voir la configuration actuelle de l'automod"
+      },
+      "toggle": {
+        "desc": "Active ou désactive une fonction de l'automod",
+        "feature": {
+          "desc": "Quelle fonction modifier",
+          "c": {
+            "enabled": "Automod (tout)",
+            "antiScam": "Anti-liens d'arnaque",
+            "antiEveryone": "Restreindre @everyone / @here",
+            "antiMassMention": "Protection contre les mentions de masse",
+            "useDiscordAutomod": "Synchroniser avec l'AutoMod Discord"
+          }
+        },
+        "state": {
+          "desc": "Activé ou désactivé"
+        }
+      },
+      "bypass-role": {
+        "desc": "Permet à un rôle d'ignorer l'automod (utiliser @everyone, poster des liens, etc.)",
+        "action": {
+          "desc": "Ajouter ou retirer le rôle",
+          "c": {
+            "add": "Ajouter",
+            "remove": "Retirer"
+          }
+        },
+        "role": {
+          "desc": "Le rôle à ajouter ou retirer"
+        }
+      },
+      "blacklist": {
+        "desc": "Gère les domaines ou mots-clés supplémentaires bloqués par le filtre anti-arnaque",
+        "action": {
+          "desc": "Ajouter, retirer ou lister des entrées",
+          "c": {
+            "add": "Ajouter",
+            "remove": "Retirer",
+            "list": "Lister"
+          }
+        },
+        "entry": {
+          "desc": "Domaine ou mot-clé (ex. discord-nitro-free.com)"
+        }
+      },
+      "log-channel": {
+        "desc": "Choisis le salon où l'automod envoie ses alertes",
+        "channel": {
+          "desc": "Salon des logs de l'automod (laisser vide pour effacer)"
+        }
+      },
+      "flood": {
+        "desc": "Empêche d'envoyer beaucoup de messages très vite",
+        "enabled": {
+          "desc": "Activé ou désactivé"
+        },
+        "messages": {
+          "desc": "Nombre de messages considéré comme flood (6 par défaut)"
+        },
+        "seconds": {
+          "desc": "En combien de secondes (5 par défaut)"
+        },
+        "timeout_minutes": {
+          "desc": "Durée d'exclusion, 0 pour aucune (5 par défaut)"
+        }
+      },
+      "word-filters": {
+        "desc": "Active les listes de mots intégrées de Discord",
+        "profanity": {
+          "desc": "Jurons et grossièretés"
+        },
+        "sexual": {
+          "desc": "Mots et expressions à caractère sexuel"
+        },
+        "slurs": {
+          "desc": "Insultes et propos injurieux"
+        }
+      },
+      "links": {
+        "desc": "Bloque les invitations vers d'autres serveurs, ou tous les liens",
+        "invites": {
+          "desc": "Bloquer les invitations de serveurs Discord"
+        },
+        "all_links": {
+          "desc": "Bloquer tous les liens (sauf les sites autorisés)"
+        }
+      },
+      "allow-link": {
+        "desc": "Sites ou invitations toujours autorisés par le filtre de liens",
+        "action": {
+          "desc": "Ajouter, retirer ou lister",
+          "c": {
+            "add": "Ajouter",
+            "remove": "Retirer",
+            "list": "Lister"
+          }
+        },
+        "entry": {
+          "desc": "ex. youtube.com ou discord.gg/toncode"
+        }
+      },
+      "exempt-channel": {
+        "desc": "Désactive l'automod dans un salon ou une catégorie",
+        "action": {
+          "desc": "Ajouter ou retirer",
+          "c": {
+            "add": "Ajouter",
+            "remove": "Retirer"
+          }
+        },
+        "channel": {
+          "desc": "Salon ou catégorie"
+        }
+      },
+      "strikes": {
+        "desc": "Sanctionne automatiquement les récidivistes",
+        "enabled": {
+          "desc": "Activé ou désactivé"
+        },
+        "timeout_at": {
+          "desc": "Sanctions avant une exclusion (3 par défaut, 0 = jamais)"
+        },
+        "timeout_minutes": {
+          "desc": "Durée de l'exclusion (60 par défaut)"
+        },
+        "kick_at": {
+          "desc": "Sanctions avant une expulsion (5 par défaut, 0 = jamais)"
+        },
+        "ban_at": {
+          "desc": "Sanctions avant un bannissement (7 par défaut, 0 = jamais)"
+        },
+        "forget_after_days": {
+          "desc": "Les sanctions expirent après ce nombre de jours (30 par défaut)"
+        }
+      },
+      "user-strikes": {
+        "desc": "Voir ou effacer les sanctions de l'automod de quelqu'un",
+        "user": {
+          "desc": "Qui"
+        },
+        "clear": {
+          "desc": "Effacer ses sanctions"
+        }
+      }
+    },
+    "avatar": {
+      "desc": "Obtiens l'URL de l'avatar des utilisateurs mentionnés, ou ton propre avatar.",
+      "size": {
+        "desc": "Taille de l'avatar",
+        "c": {
+          "128": "128",
+          "256": "256",
+          "512": "512",
+          "1024": "1024",
+          "2048": "2048"
+        }
+      },
+      "target": {
+        "desc": "L'utilisateur dont tu veux l'avatar"
+      }
+    },
+    "badges": {
+      "desc": "Vois tous les badges et comment les obtenir, ou ceux d'un utilisateur",
+      "user": {
+        "desc": "Afficher plutôt les badges de cet utilisateur"
+      }
+    },
+    "ban": {
+      "desc": "Bannir un utilisateur",
+      "user": {
+        "desc": "Utilisateur à bannir"
+      },
+      "reason": {
+        "desc": "Raison"
+      }
+    },
+    "botinfo": {
+      "desc": "Statistiques, état et liens de Maximum Bot."
+    },
+    "buttonroles": {
+      "desc": "Panneaux de rôles : les membres choisissent des rôles avec des boutons ou un menu",
+      "create": {
+        "desc": "Publie un nouveau panneau de rôles",
+        "title": {
+          "desc": "Titre du panneau"
+        },
+        "description": {
+          "desc": "Texte sous le titre (utilise \\n pour aller à la ligne)"
+        },
+        "layout": {
+          "desc": "Comment les rôles sont affichés",
+          "c": {
+            "list": "Liste (rôle, description et bouton sur chaque ligne)",
+            "buttons": "Boutons (rangées de boutons)",
+            "menu": "Menu déroulant"
+          }
+        },
+        "mode": {
+          "desc": "Combien de rôles les membres peuvent choisir",
+          "c": {
+            "multiple": "Choix multiple",
+            "single": "Un seul choix",
+            "add-only": "Impossible à retirer une fois choisi"
+          }
+        },
+        "max": {
+          "desc": "Nombre max de rôles par membre sur ce panneau (0 = sans limite)"
+        },
+        "required_role": {
+          "desc": "Seuls les membres avec ce rôle peuvent utiliser le panneau"
+        },
+        "color": {
+          "desc": "Couleur d'accent en hex, ex. #8054e6"
+        },
+        "image": {
+          "desc": "URL de l'image de bannière (https://...)"
+        },
+        "placeholder": {
+          "desc": "Texte indicatif du menu (disposition menu)"
+        },
+        "channel": {
+          "desc": "Où le publier (par défaut : ici)"
+        }
+      },
+      "add": {
+        "desc": "Ajoute un rôle à un panneau",
+        "panel": {
+          "desc": "ID ou lien du message du panneau (voir /buttonroles list)"
+        },
+        "role": {
+          "desc": "Rôle à donner"
+        },
+        "label": {
+          "desc": "Texte du bouton ou du menu (par défaut : nom du rôle)"
+        },
+        "description": {
+          "desc": "Courte explication affichée à côté du rôle"
+        },
+        "emoji": {
+          "desc": "Émoji, ex. 🎮 ou un émoji personnalisé"
+        },
+        "style": {
+          "desc": "Couleur du bouton",
+          "c": {
+            "primary": "Blurple",
+            "secondary": "Gris",
+            "success": "Vert",
+            "danger": "Rouge"
+          }
+        }
+      },
+      "remove": {
+        "desc": "Retire un rôle d'un panneau",
+        "panel": {
+          "desc": "ID ou lien du message du panneau (voir /buttonroles list)"
+        },
+        "role": {
+          "desc": "Rôle à retirer"
+        }
+      },
+      "edit": {
+        "desc": "Modifie l'apparence ou les règles d'un panneau",
+        "panel": {
+          "desc": "ID ou lien du message du panneau (voir /buttonroles list)"
+        },
+        "title": {
+          "desc": "Nouveau titre"
+        },
+        "description": {
+          "desc": "Texte sous le titre (utilise \\n pour aller à la ligne)"
+        },
+        "layout": {
+          "desc": "Comment les rôles sont affichés",
+          "c": {
+            "list": "Liste (rôle, description et bouton sur chaque ligne)",
+            "buttons": "Boutons (rangées de boutons)",
+            "menu": "Menu déroulant"
+          }
+        },
+        "mode": {
+          "desc": "Combien de rôles les membres peuvent choisir",
+          "c": {
+            "multiple": "Choix multiple",
+            "single": "Un seul choix",
+            "add-only": "Impossible à retirer une fois choisi"
+          }
+        },
+        "max": {
+          "desc": "Nombre max de rôles par membre sur ce panneau (0 = sans limite)"
+        },
+        "required_role": {
+          "desc": "Seuls les membres avec ce rôle peuvent utiliser le panneau"
+        },
+        "color": {
+          "desc": "Couleur d'accent en hex, ex. #8054e6"
+        },
+        "image": {
+          "desc": "URL de l'image de bannière (https://...)"
+        },
+        "placeholder": {
+          "desc": "Texte indicatif du menu (disposition menu)"
+        },
+        "clear_required_role": {
+          "desc": "Laisser de nouveau tout le monde utiliser le panneau"
+        },
+        "clear_image": {
+          "desc": "Retirer l'image de bannière"
+        }
+      },
+      "delete": {
+        "desc": "Supprime un panneau et son message",
+        "panel": {
+          "desc": "ID ou lien du message du panneau (voir /buttonroles list)"
+        }
+      },
+      "list": {
+        "desc": "Liste les panneaux de rôles de ce serveur"
+      }
+    },
+    "case": {
+      "desc": "Consulte ou modifie un cas de modération",
+      "view": {
+        "desc": "Afficher un cas",
+        "number": {
+          "desc": "Numéro du cas"
+        }
+      },
+      "reason": {
+        "desc": "Modifie la raison d'un cas",
+        "number": {
+          "desc": "Numéro du cas"
+        },
+        "reason": {
+          "desc": "Nouvelle raison"
+        }
+      },
+      "recent": {
+        "desc": "Les derniers cas de ce serveur"
+      }
+    },
+    "cat": {
+      "desc": "Obtiens une photo de chat au hasard"
+    },
+    "cc": {
+      "desc": "Lance l'une des commandes personnalisées de ce serveur",
+      "trigger": {
+        "desc": "Quelle commande personnalisée lancer"
+      }
+    },
+    "changelog": {
+      "desc": "Consulte les nouveautés et l'historique des mises à jour"
+    },
+    "clearwarn": {
+      "desc": "Efface TOUS les avertissements d'un utilisateur",
+      "user": {
+        "desc": "Utilisateur à blanchir"
+      }
+    },
+    "dog": {
+      "desc": "Obtiens une photo de chien au hasard"
+    },
+    "emojis": {
+      "desc": "Parcours les émojis de ce serveur, ou cherches-en un",
+      "type": {
+        "desc": "Quels émojis afficher",
+        "c": {
+          "all": "Tous",
+          "static": "Statiques",
+          "animated": "Animés"
+        }
+      },
+      "search": {
+        "desc": "N'afficher que les émojis dont le nom contient ceci"
+      },
+      "emoji": {
+        "desc": "Cherche un émoji personnalisé (l'affiche en grand)"
+      }
+    },
+    "giveaway": {
+      "desc": "Organise des giveaways avec un bouton pour participer",
+      "start": {
+        "desc": "Lance un giveaway",
+        "prize": {
+          "desc": "Qu'est-ce que tu fais gagner ?"
+        },
+        "duration": {
+          "desc": "Durée, ex. 30m, 2h, 1d 12h, 1w"
+        },
+        "winners": {
+          "desc": "Combien de gagnants (1 par défaut)"
+        },
+        "channel": {
+          "desc": "Où le publier (par défaut : ici)"
+        },
+        "required_role": {
+          "desc": "Seules les personnes avec ce rôle peuvent participer"
+        },
+        "voter_bonus": {
+          "desc": "Donner une participation bonus à ceux qui ont voté pour le bot (par défaut : oui)"
+        },
+        "description": {
+          "desc": "Détails supplémentaires"
+        }
+      },
+      "end": {
+        "desc": "Termine un giveaway maintenant et tire les gagnants",
+        "giveaway": {
+          "desc": "ID ou lien du message du giveaway"
+        }
+      },
+      "reroll": {
+        "desc": "Tire de nouveaux gagnants pour un giveaway terminé",
+        "giveaway": {
+          "desc": "ID ou lien du message du giveaway"
+        },
+        "winners": {
+          "desc": "Combien de nouveaux gagnants (par défaut : comme avant)"
+        }
+      },
+      "cancel": {
+        "desc": "Supprime un giveaway en cours sans tirer de gagnants",
+        "giveaway": {
+          "desc": "ID ou lien du message du giveaway"
+        }
+      },
+      "list": {
+        "desc": "Giveaways en cours sur ce serveur"
+      }
+    },
+    "help": {
+      "desc": "Affiche les commandes disponibles et leurs descriptions"
+    },
+    "kick": {
+      "desc": "Expulser un utilisateur",
+      "user": {
+        "desc": "Utilisateur à expulser"
+      },
+      "reason": {
+        "desc": "Raison"
+      }
+    },
+    "language": {
+      "desc": "Change la langue dans laquelle Maximum Bot parle",
+      "me": {
+        "desc": "Ta propre langue pour les réponses que toi seul vois",
+        "language": {
+          "desc": "Ta langue",
+          "c": {
+            "en": "🇬🇧 English (anglais)",
+            "es": "🇪🇸 Español (espagnol)",
+            "fr": "🇫🇷 Français",
+            "tr": "🇹🇷 Türkçe (turc)",
+            "reset": "↩️ Comme le serveur"
+          }
+        }
+      },
+      "server": {
+        "desc": "Langue du serveur pour les messages publics (admins)",
+        "language": {
+          "desc": "La langue du serveur",
+          "c": {
+            "en": "🇬🇧 English (anglais)",
+            "es": "🇪🇸 Español (espagnol)",
+            "fr": "🇫🇷 Français",
+            "tr": "🇹🇷 Türkçe (turc)"
+          }
+        }
+      },
+      "info": {
+        "desc": "Voir quelles langues sont définies"
+      }
+    },
+    "levels": {
+      "desc": "Niveaux : classement et paramètres",
+      "leaderboard": {
+        "desc": "Les membres avec le plus d'XP"
+      },
+      "settings": {
+        "desc": "Voir les paramètres des niveaux (admin)"
+      },
+      "enable": {
+        "desc": "Active ou désactive les niveaux (admin)",
+        "enabled": {
+          "desc": "Activé ou désactivé"
+        }
+      },
+      "announce": {
+        "desc": "Où vont les messages de montée de niveau (admin)",
+        "where": {
+          "desc": "Où annoncer",
+          "c": {
+            "current": "Dans le salon où ils discutaient",
+            "channel": "Dans un salon défini",
+            "dm": "En MP",
+            "off": "Ne pas annoncer"
+          }
+        },
+        "channel": {
+          "desc": "Salon pour \"Dans un salon défini\""
+        },
+        "message": {
+          "desc": "Utilise {user}, {username}, {level}, {server}"
+        }
+      },
+      "role-add": {
+        "desc": "Donne un rôle quand les membres atteignent un niveau (admin)",
+        "level": {
+          "desc": "Niveau"
+        },
+        "role": {
+          "desc": "Rôle à donner"
+        }
+      },
+      "role-remove": {
+        "desc": "Arrête de donner un rôle de niveau (admin)",
+        "role": {
+          "desc": "Rôle"
+        }
+      },
+      "ignore-channel": {
+        "desc": "Pas d'XP dans un salon ou une catégorie (relancer pour annuler) (admin)",
+        "channel": {
+          "desc": "Salon ou catégorie"
+        }
+      },
+      "set-level": {
+        "desc": "Définit le niveau de quelqu'un (admin)",
+        "user": {
+          "desc": "Membre"
+        },
+        "level": {
+          "desc": "Nouveau niveau"
+        }
+      },
+      "reset": {
+        "desc": "Efface l'XP de tout le monde sur ce serveur (admin)",
+        "confirm": {
+          "desc": "Tape RESET pour confirmer"
+        }
+      }
+    },
+    "lockdown": {
+      "desc": "Empêche tout le monde de parler dans un salon ou sur tout le serveur",
+      "channel": {
+        "desc": "Verrouiller un salon",
+        "channel": {
+          "desc": "Salon à verrouiller (par défaut : celui-ci)"
+        },
+        "reason": {
+          "desc": "Affichée dans le salon"
+        }
+      },
+      "server": {
+        "desc": "Verrouille tous les salons où @everyone peut parler",
+        "reason": {
+          "desc": "Affichée dans chaque salon"
+        }
+      },
+      "end": {
+        "desc": "Déverrouille un salon, ou tout ce qui a été verrouillé",
+        "channel": {
+          "desc": "Salon à déverrouiller (par défaut : tous les salons verrouillés)"
+        }
+      },
+      "status": {
+        "desc": "Voir quels salons sont verrouillés"
+      }
+    },
+    "logs": {
+      "desc": "Enregistre dans un salon les changements de messages, rôles, serveur et membres",
+      "set": {
+        "desc": "Envoie un type de log dans un salon",
+        "channel": {
+          "desc": "Où publier les logs"
+        },
+        "type": {
+          "desc": "Quels logs (par défaut : tout)",
+          "c": {
+            "all": "Tout",
+            "messages": "Messages : supprimés, modifiés, suppressions en masse et épinglages",
+            "roles": "Rôles : créés, modifiés ou supprimés, et donnés ou retirés aux membres",
+            "server": "Serveur : paramètres, salons, permissions, émojis, invitations, webhooks, événements",
+            "members": "Membres : pseudos, exclusions, expulsions, bannissements et débannissements"
+          }
+        }
+      },
+      "off": {
+        "desc": "Arrête un type de log",
+        "type": {
+          "desc": "Quels logs désactiver",
+          "c": {
+            "all": "Tout",
+            "messages": "Messages : supprimés, modifiés, suppressions en masse et épinglages",
+            "roles": "Rôles : créés, modifiés ou supprimés, et donnés ou retirés aux membres",
+            "server": "Serveur : paramètres, salons, permissions, émojis, invitations, webhooks, événements",
+            "members": "Membres : pseudos, exclusions, expulsions, bannissements et débannissements"
+          }
+        }
+      },
+      "ignore": {
+        "desc": "Ne pas enregistrer les messages supprimés ou modifiés d'un salon (relancer pour annuler)",
+        "channel": {
+          "desc": "Salon ou catégorie à ignorer"
+        }
+      },
+      "bots": {
+        "desc": "Choisis si les messages de bots supprimés sont enregistrés",
+        "log": {
+          "desc": "Enregistrer les messages de bots supprimés"
+        }
+      },
+      "status": {
+        "desc": "Voir où va chaque type de log"
+      }
+    },
+    "meme": {
+      "desc": "Récupère un mème au hasard"
+    },
+    "modlogs": {
+      "desc": "Voir tout l'historique de modération d'un utilisateur (bans, expulsions, avertissements...)",
+      "user": {
+        "desc": "Utilisateur à consulter"
+      }
+    },
+    "news": {
+      "desc": "Les dernières actualités de Maximum Studios :D"
+    },
+    "note": {
+      "desc": "Notes privées du staff sur un membre (il ne les voit jamais)",
+      "add": {
+        "desc": "Ajouter une note",
+        "user": {
+          "desc": "Membre"
+        },
+        "text": {
+          "desc": "La note"
+        }
+      },
+      "list": {
+        "desc": "Voir les notes d'un membre",
+        "user": {
+          "desc": "Membre"
+        }
+      },
+      "remove": {
+        "desc": "Supprimer une note",
+        "id": {
+          "desc": "ID de la note depuis /note list"
+        }
+      }
+    },
+    "permission": {
+      "desc": "Vérifie les permissions du bot",
+      "check": {
+        "desc": "Vérifie ce que le bot peut et ne peut pas faire sur ce serveur",
+        "channel": {
+          "desc": "Salon à vérifier (par défaut : celui-ci)"
+        }
+      }
+    },
+    "purge": {
+      "desc": "Supprime en masse les messages récents de ce salon",
+      "amount": {
+        "desc": "Nombre de messages à supprimer (1-100)"
+      },
+      "user": {
+        "desc": "Ne supprimer que les messages de cet utilisateur"
+      }
+    },
+    "rank": {
+      "desc": "Vois ton niveau et ton XP sur ce serveur",
+      "user": {
+        "desc": "Le rang de quelqu'un d'autre"
+      }
+    },
+    "remind": {
+      "desc": "Reçois un rappel plus tard",
+      "me": {
+        "desc": "Créer un rappel",
+        "in": {
+          "desc": "Quand, ex. 10m, 2h, 1d 6h, 2w"
+        },
+        "about": {
+          "desc": "De quoi te faire penser"
+        },
+        "here": {
+          "desc": "Me le rappeler dans ce salon plutôt qu'en MP"
+        }
+      },
+      "list": {
+        "desc": "Tes prochains rappels"
+      },
+      "delete": {
+        "desc": "Supprimer un rappel",
+        "id": {
+          "desc": "ID du rappel depuis /remind list"
+        }
+      }
+    },
+    "removewarn": {
+      "desc": "Retire un avertissement précis par son ID de cas",
+      "user": {
+        "desc": "Utilisateur"
+      },
+      "caseid": {
+        "desc": "ID du cas (#0001)"
+      }
+    },
+    "serverinfo": {
+      "desc": "Affiche des informations sur ce serveur."
+    },
+    "settings": {
+      "desc": "Voir la configuration actuelle de ce serveur"
+    },
+    "setup": {
+      "desc": "Configure les paramètres du serveur",
+      "config": {
+        "desc": "Configure les paramètres de base (salon des logs, délai de bannissement, etc.)",
+        "log_channel": {
+          "desc": "Choisis un salon de logs"
+        },
+        "ban_timeout": {
+          "desc": "Délai de bannissement en heures"
+        },
+        "temp_ban_duration": {
+          "desc": "Durée du bannissement temporaire en jours"
+        },
+        "warn_threshold": {
+          "desc": "Avertissements avant sanction"
+        },
+        "staff_role": {
+          "desc": "Rôle staff avec accès à la modération"
+        },
+        "autoban": {
+          "desc": "Bannir automatiquement quand le seuil d'avertissements est atteint"
+        }
+      },
+      "honeypot": {
+        "desc": "Crée un salon piège qui bannit immédiatement quiconque y envoie un message",
+        "name": {
+          "desc": "Nom du salon (par défaut : 🍯・ne-pas-lire)"
+        },
+        "category": {
+          "desc": "Catégorie où placer le salon"
+        },
+        "remove": {
+          "desc": "Supprimer le honeypot existant au lieu d'en créer un"
+        }
+      }
+    },
+    "suggest": {
+      "desc": "Publie une suggestion pour ce serveur",
+      "idea": {
+        "desc": "Ta suggestion"
+      },
+      "anonymous": {
+        "desc": "Masquer ton nom (le staff peut toujours le voir)"
+      }
+    },
+    "suggestions": {
+      "desc": "Configure les suggestions et réponds-y",
+      "channel": {
+        "desc": "Où vont les suggestions de /suggest",
+        "channel": {
+          "desc": "Salon des suggestions (laisser vide pour désactiver)"
+        },
+        "threads": {
+          "desc": "Ouvrir un fil de discussion pour chaque suggestion (par défaut : oui)"
+        }
+      },
+      "approve": {
+        "desc": "Approuver une suggestion",
+        "number": {
+          "desc": "Numéro de la suggestion"
+        },
+        "reason": {
+          "desc": "Affichée sur la suggestion et envoyée à son auteur"
+        }
+      },
+      "deny": {
+        "desc": "Refuser une suggestion",
+        "number": {
+          "desc": "Numéro de la suggestion"
+        },
+        "reason": {
+          "desc": "Affichée sur la suggestion et envoyée à son auteur"
+        }
+      },
+      "consider": {
+        "desc": "Marquer une suggestion comme à l'étude",
+        "number": {
+          "desc": "Numéro de la suggestion"
+        },
+        "reason": {
+          "desc": "Affichée sur la suggestion et envoyée à son auteur"
+        }
+      },
+      "implemented": {
+        "desc": "Marquer une suggestion comme réalisée",
+        "number": {
+          "desc": "Numéro de la suggestion"
+        },
+        "reason": {
+          "desc": "Affichée sur la suggestion et envoyée à son auteur"
+        }
+      },
+      "author": {
+        "desc": "Voir qui a publié une suggestion (même anonyme)",
+        "number": {
+          "desc": "Numéro de la suggestion"
+        }
+      }
+    },
+    "support-history": {
+      "desc": "Voir tes tickets de support passés et en cours"
+    },
+    "support": {
+      "desc": "Contacte le support Maximum Studios pour un problème avec le bot"
+    },
+    "tempban": {
+      "desc": "Bannir temporairement un utilisateur",
+      "user": {
+        "desc": "Utilisateur"
+      },
+      "duration": {
+        "desc": "Minutes"
+      },
+      "reason": {
+        "desc": "Raison"
+      }
+    },
+    "timeout": {
+      "desc": "Exclure temporairement un utilisateur",
+      "user": {
+        "desc": "Utilisateur"
+      },
+      "duration": {
+        "desc": "Durée en minutes (max. 10080 = 7 jours)"
+      },
+      "reason": {
+        "desc": "Raison"
+      }
+    },
+    "unban": {
+      "desc": "Débannir un membre",
+      "user": {
+        "desc": "L'ID de l'utilisateur à débannir"
+      },
+      "reason": {
+        "desc": "Raison du débannissement"
+      }
+    },
+    "untimeout": {
+      "desc": "Retirer l'exclusion d'un utilisateur",
+      "user": {
+        "desc": "Utilisateur dont retirer l'exclusion"
+      },
+      "reason": {
+        "desc": "Raison du retrait de l'exclusion"
+      }
+    },
+    "userinfo": {
+      "desc": "Affiche une carte de profil : compte, infos serveur, badges et votes.",
+      "target": {
+        "desc": "Quel profil afficher (par défaut : toi)"
+      }
+    },
+    "vote": {
+      "desc": "Vote pour Maximum Bot et vois tes avantages de votant",
+      "status": {
+        "desc": "Liens de vote, ton statut de vote et tes avantages"
+      },
+      "leaderboard": {
+        "desc": "Meilleurs votants",
+        "period": {
+          "desc": "Quels votes compter (par défaut : ce mois-ci)",
+          "c": {
+            "month": "Ce mois-ci",
+            "all": "Depuis toujours"
+          }
+        }
+      },
+      "reminder": {
+        "desc": "Reçois un MP quand tu peux revoter",
+        "enabled": {
+          "desc": "Activer ou désactiver les rappels"
+        }
+      }
+    },
+    "wallpaper": {
+      "desc": "Récupère des fonds d'écran et te permet d'en changer."
+    },
+    "warn": {
+      "desc": "Avertir un utilisateur",
+      "user": {
+        "desc": "Utilisateur à avertir"
+      },
+      "reason": {
+        "desc": "Raison de l'avertissement"
+      }
+    },
+    "warnings": {
+      "desc": "Voir les avertissements d'un utilisateur",
+      "user": {
+        "desc": "Utilisateur à vérifier"
+      }
+    }
+  },
+  "dash": {
+    "panel": {
+      "maximumBot": "Maximum Bot",
+      "allMyServers": "← Tous mes serveurs",
+      "admin": "Admin",
+      "logOut": "Se déconnecter",
+      "loading": "Chargement...",
+      "settings": "⚙️ Paramètres",
+      "automod": "🛡️ Automod",
+      "customCommands": "⚡ Commandes personnalisées",
+      "rolePanels": "🎛️ Panneaux de rôles",
+      "modLog": "📋 Logs de modération",
+      "accessAudit": "🔑 Accès et audit",
+      "dangerZone": "⚠️ Zone de danger",
+      "serverSettings": "⚙️ Paramètres du serveur",
+      "logChannel": "Salon des logs",
+      "none": "Aucun",
+      "staffRoleModCommandOverride": "Rôle staff (accès aux commandes de modération)",
+      "banTimeoutHours": "Délai de bannissement (heures)",
+      "tempBanDurationDays": "Durée du bannissement temporaire (jours)",
+      "warnThreshold": "Seuil d'avertissements",
+      "autoBanWhenWarnThresholdIs": "Bannir automatiquement quand le seuil d'avertissements est atteint",
+      "saveSettings": "Enregistrer les paramètres",
+      "moderatorRoles": "🛡️ Rôles de modérateur",
+      "anyoneHoldingOneOfTheseRoles": "Toute personne ayant l'un de ces rôles peut utiliser les commandes de modération (ban/kick/timeout/warn, etc.) même sans la permission Discord, en plus du rôle staff ci-dessus.",
+      "addARole": "Ajouter un rôle",
+      "add": "Ajouter",
+      "onlySomeoneWithManageServerAdministrator": "Seule une personne ayant Gérer le serveur/Administrateur sur ce serveur (ou un accès admin au bot) peut modifier les rôles de modérateur.",
+      "suggestions": "💡 Suggestions",
+      "whereSuggestPostsGoInThis": "Où vont les suggestions de <code>/suggest</code> sur ce serveur. Le staff y répond avec <code>/suggestions approve</code>, <code>deny</code>, <code>consider</code> ou <code>implemented</code>.",
+      "suggestionsChannel": "Salon des suggestions",
+      "off": "Désactivé",
+      "openADiscussionThreadForEach": "Ouvrir un fil de discussion pour chaque suggestion",
+      "saveSuggestions": "Enregistrer les suggestions",
+      "automodEnabledEverythingBelowDependsOn": "Automod activé (tout ce qui suit en dépend)",
+      "antiScamLinkFilter": "Filtre anti-liens d'arnaque",
+      "restrictEveryoneHereToStaff": "Réserver @everyone / @here au staff",
+      "massMentionProtection": "Protection contre les mentions de masse",
+      "syncToDiscordSNativeAutomod": "Synchroniser avec l'AutoMod natif de Discord",
+      "automodLogChannelOptionalFallsBack": "Salon des logs de l'automod (facultatif, sinon celui des Paramètres)",
+      "bypassRoles": "Rôles exemptés",
+      "customBlacklistOneDomainKeywordPer": "Liste noire personnalisée (un domaine ou mot-clé par ligne)",
+      "saveAutomod": "Enregistrer l'automod",
+      "trigger": "Déclencheur",
+      "type": "Type",
+      "enabled": "Activée",
+      "buttons": "Boutons",
+      "uses": "Utilisations",
+      "addCommand": "Ajouter une commande",
+      "runWithCcTriggerNamePlaceholders": "Se lance avec <code>/cc trigger:nom</code>. Variables : <code>{user} {username} {usertag} {server} {membercount} {channel}</code>. Texte ou embed uniquement, aucune exécution de code.",
+      "responseType": "Type de réponse",
+      "text": "Texte",
+      "embed": "Embed",
+      "yes": "Oui",
+      "no": "Non",
+      "content": "Contenu",
+      "embedTitle": "Titre de l'embed",
+      "embedColorHex": "Couleur de l'embed (hex)",
+      "embedDescription": "Description de l'embed",
+      "authorNameOptional": "Nom de l'auteur (facultatif)",
+      "footerOptional": "Pied de page (facultatif)",
+      "thumbnailUrlOptionalSmallImage": "URL de la miniature (facultatif, petite image)",
+      "imageUrlOptionalLargeImage": "URL de l'image (facultatif, grande image)",
+      "preview": "Aperçu",
+      "buttonsOptionalUpTo5": "Boutons (facultatif, jusqu'à 5)",
+      "addButton": "+ Ajouter un bouton",
+      "saveCommand": "Enregistrer la commande",
+      "cancelEdit": "Annuler la modification",
+      "newPanel": "+ Nouveau panneau",
+      "panelsLetMembersGiveThemselvesRoles": "Les panneaux permettent aux membres de se donner des rôles en cliquant sur des boutons ou en choisissant dans un menu, le tout dans une seule carte. Tu peux aussi les gérer avec <code>/buttonroles</code>.",
+      "newPanel2": "Nouveau panneau",
+      "postInChannel": "Publier dans le salon",
+      "title": "Titre",
+      "description": "Description",
+      "layout": "Disposition",
+      "mode": "Mode",
+      "maxPerMember": "Max. par membre",
+      "requiredRoleOptional": "Rôle requis (facultatif)",
+      "accentColour": "Couleur d'accent",
+      "bannerImageUrlOptional": "URL de l'image de bannière (facultatif)",
+      "dropdownPlaceholderOptional": "Texte indicatif du menu (facultatif)",
+      "roleLabelDescriptionEmojiButtonColour": "Rôle · Libellé · Description · Émoji · Couleur du bouton. Utilise ↑ ↓ pour changer l'ordre.",
+      "addRole": "+ Ajouter un rôle",
+      "postPanel": "Publier le panneau",
+      "cancel": "Annuler",
+      "recentModerationActions": "📋 Actions de modération récentes",
+      "case": "Cas",
+      "user": "Utilisateur",
+      "moderator": "Modérateur",
+      "reason": "Raison",
+      "when": "Quand",
+      "dashboardAccess": "🔑 Accès au tableau de bord",
+      "anyoneHereCanOpenAndUse": "Toute personne de cette liste peut ouvrir et utiliser le tableau de bord de ce serveur, même sans Gérer le serveur/Administrateur sur Discord.",
+      "discordUserId": "ID utilisateur Discord",
+      "grantAccess": "Donner l'accès",
+      "userId": "ID utilisateur",
+      "dashboardAccessRoles": "Rôles avec accès au tableau de bord",
+      "anyoneHoldingOneOfTheseRoles2": "Toute personne ayant l'un de ces rôles a aussi accès au tableau de bord, sans accès individuel.",
+      "onlySomeoneWithManageServerAdministrator2": "Seule une personne ayant Gérer le serveur/Administrateur sur ce serveur (ou un accès admin au bot) peut modifier l'accès au tableau de bord.",
+      "recentActivity": "📜 Activité récente",
+      "everyChangeMadeThroughThisDashboard": "Chaque modification faite depuis ce tableau de bord pour ce serveur, de la plus récente à la plus ancienne. Les mêmes entrées sont aussi publiées dans le salon des logs ci-dessus (s'il est défini).",
+      "who": "Qui",
+      "action": "Action",
+      "detail": "Détail",
+      "theseActionsAreOnlyAvailableTo": "Ces actions sont réservées au propriétaire du bot, quels que soient les onglets visibles pour un gestionnaire de serveur.",
+      "leaveThisServer": "Quitter ce serveur",
+      "blacklistThisServer": "Mettre ce serveur sur liste noire",
+      "rules": "règles",
+      "welcomeUserToServer": "Bienvenue {user} sur {server} !",
+      "pickYourRoles": "Choisis tes rôles",
+      "clickAButtonToGetOr": "Clique sur un bouton pour obtenir ou retirer un rôle.",
+      "0NoLimit": "0 = sans limite",
+      "roles": "Rôles",
+      "serverLanguage": "Langue du serveur",
+      "serverLanguageHelp": "Utilisée pour les messages publics du bot, les logs et les panneaux de ce serveur. Les membres peuvent toujours choisir leur propre langue avec /language me."
+    },
+    "picker": {
+      "maximumBot": "Maximum Bot",
+      "logOut": "Se déconnecter",
+      "yourServers": "Tes serveurs",
+      "loading": "Chargement...",
+      "noServers": "Aucun serveur trouvé où tu peux gérer Maximum Bot.",
+      "noServersHelp": "Tu as besoin de la permission Gérer le serveur ou Administrateur sur un serveur où se trouve le bot. Si tu viens d'obtenir un rôle qui la donne, déconnecte-toi puis reconnecte-toi.",
+      "manageCount_one": "Tu gères Maximum Bot sur {count} serveur.",
+      "manageCount_other": "Tu gères Maximum Bot sur {count} serveurs."
+    },
+    "js": {
+      "never": "jamais",
+      "justNow": "à l'instant",
+      "minsAgo": "il y a {n} min",
+      "hrsAgo": "il y a {n} h",
+      "daysAgo": "il y a {n} j",
+      "requestFailed": "La requête a échoué ({status})",
+      "members_one": "{n} membre",
+      "members_other": "{n} membres",
+      "selectRole": "Choisis un rôle...",
+      "selectChannel": "Choisis un salon...",
+      "noRoles": "Aucun rôle",
+      "saving": "Enregistrement...",
+      "saved": "Enregistré.",
+      "error": "Erreur : {message}",
+      "adding": "Ajout...",
+      "added": "Ajouté.",
+      "scamBadge": "🚩 ARNAQUE",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "restore": "Rétablir",
+      "flagScam": "🚩 Signaler comme arnaque",
+      "noCustomCommands": "Aucune commande personnalisée pour l'instant",
+      "confirmFlag": "Signaler \"{trigger}\" comme arnaque ? Quiconque la lance verra un avertissement au lieu de son vrai contenu, et le salon des logs du serveur (s'il est défini) sera prévenu.",
+      "confirmDeleteCommand": "Supprimer la commande personnalisée \"{trigger}\" ?",
+      "editingCommand": "Modification de \"{trigger}\"",
+      "label": "Libellé",
+      "style": "Style",
+      "link": "Lien",
+      "reply": "Réponse",
+      "replyText": "Texte de réponse",
+      "url": "URL",
+      "remove": "Retirer",
+      "buttonTextPlaceholder": "Texte du bouton",
+      "replyPlaceholder": "Réponse éphémère, ex. {user}, la réponse est...",
+      "urlPlaceholder": "https://... (site, lien de salon ou de message)",
+      "noButtons": "Aucun bouton sur cette commande.",
+      "noModActions": "Aucune action de modération enregistrée pour l'instant",
+      "noModRoles": "Aucun rôle de modérateur ajouté",
+      "revoke": "Révoquer",
+      "noAccessUsers": "Aucun utilisateur avec un accès individuel",
+      "noAccessRoles": "Aucun rôle avec accès au tableau de bord",
+      "noAudit": "Aucune activité enregistrée sur le tableau de bord pour l'instant",
+      "confirmLeave": "Faire quitter ce serveur au bot ? Impossible d'annuler depuis ici.",
+      "leftRedirecting": "Serveur quitté. Redirection...",
+      "blacklistReason": "Raison de la mise sur liste noire de ce serveur ?",
+      "noReason": "Aucune raison fournie",
+      "confirmBlacklist": "Mettre ce serveur sur liste noire et le quitter ? Le bot refusera d'y revenir.",
+      "blacklistedRedirecting": "Sur liste noire et quitté. Redirection...",
+      "rpCantManage": "Tu peux voir les panneaux, mais il te faut la permission <b>Gérer les rôles</b> sur ce serveur pour les créer ou les modifier.",
+      "rpBotMissing": "⚠️ Il manque au bot la permission <b>Gérer les rôles</b>, les panneaux ne peuvent donc pas donner de rôles.",
+      "anyoneCanUse": "Tout le monde peut l'utiliser",
+      "layoutUpTo": "{label} · jusqu'à {max}",
+      "noPanels": "Aucun panneau pour l'instant.",
+      "noPanelsHint": "Clique sur <b>+ Nouveau panneau</b> pour en créer un.",
+      "buttons": "Boutons",
+      "pickAny": "Choix multiple",
+      "noRolesYetLower": "pas encore de rôles",
+      "rolePanel": "Panneau de rôles",
+      "deletedChannel": "salon-supprimé",
+      "maxPicks": "max. {n}",
+      "roleCount_one": "{count} rôle",
+      "roleCount_other": "{count} rôles",
+      "open": "Ouvrir ↗",
+      "editPanel": "Modifier \"{title}\"",
+      "newPanel": "Nouveau panneau",
+      "saveChanges": "Enregistrer les modifications",
+      "postPanel": "Publier le panneau",
+      "notAllowed": "(non autorisé)",
+      "descriptionOptional": "Description (facultatif)",
+      "blurple": "Blurple",
+      "grey": "Gris",
+      "green": "Vert",
+      "red": "Rouge",
+      "noRolesAdd": "Aucun rôle pour l'instant. Clique sur <b>+ Ajouter un rôle</b>.",
+      "noRolesYet": "Aucun rôle pour l'instant.",
+      "role": "rôle",
+      "roleCap": "Rôle",
+      "pickARole": "Choisis un rôle",
+      "pickYourRoles": "Choisis tes rôles",
+      "upTo": "jusqu'à {n}",
+      "needsRole": "requiert @{role}",
+      "footMenu": "Choisis dans le menu pour mettre à jour tes rôles",
+      "footAddOnly": "Clique pour obtenir un rôle",
+      "footToggle": "Clique à nouveau pour retirer un rôle",
+      "panelTitle": "Titre du panneau",
+      "rpEmptyRows": "Choisis un rôle pour chaque ligne, ou retire les lignes vides.",
+      "rpPickChannel": "Choisis un salon où publier le panneau.",
+      "rpNeedTitle": "Le panneau a besoin d'un titre.",
+      "panelPosted": "✅ Panneau publié sur Discord.",
+      "panelUpdated": "✅ Panneau mis à jour sur Discord.",
+      "confirmDeletePanel": "Supprimer le panneau \"{title}\" ? Son message sera retiré de Discord. Les membres gardent les rôles qu'ils ont déjà.",
+      "couldNotDelete": "Suppression impossible : {message}",
+      "couldNotLoadPanels": "Impossible de charger les panneaux de rôles : {message}",
+      "couldNotLoadSuggestions": "Impossible de charger les suggestions : {message}",
+      "failedToLoad": "Échec du chargement : {message}",
+      "languageSaved": "Langue du serveur enregistrée."
+    },
+    "err": {
+      "nativePermission": "Nécessite Gérer le serveur/Administrateur sur ce serveur (ou un accès admin au bot) : l'accès au tableau de bord seul ne suffit pas.",
+      "botNotInServer": "Le bot n'est pas sur ce serveur.",
+      "roleRequired": "roleId est requis",
+      "unknownUser": "Ça ne ressemble pas à un vrai compte Discord (introuvable).",
+      "cantPostIn": "Le bot ne peut pas publier ni modifier de messages dans {channel}.",
+      "needManageRoles": "Tu as besoin de la permission Gérer les rôles sur ce serveur pour gérer les panneaux de rôles.",
+      "botNeedsManageRoles": "Le bot a besoin de la permission Gérer les rôles.",
+      "pickChannel": "Choisis un salon textuel où publier le panneau.",
+      "panelGone": "Ce panneau n'existe plus.",
+      "channelGone": "Ce salon n'existe plus.",
+      "ownerFlag": "Seul un admin du bot peut signaler une commande personnalisée comme arnaque.",
+      "ownerUnflag": "Seul un admin du bot peut rétablir une commande personnalisée signalée.",
+      "ownerOnly": "Réservé au propriétaire.",
+      "badLanguage": "Cette langue n'est pas prise en charge."
+    }
+  }
+}

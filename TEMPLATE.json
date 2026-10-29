@@ -1,0 +1,2643 @@
+{
+  "core": {
+    "noDms": "",
+    "userBlacklisted": "",
+    "guildBlacklisted": "",
+    "lockdownMode": "",
+    "maintenanceMode": "",
+    "devMode": "",
+    "slowMode": "",
+    "readOnlyMode": "",
+    "cooldown": "",
+    "cooldownVoterHint": "",
+    "errorTitle": "",
+    "errorDefault": "",
+    "errorContact": "",
+    "noPermission": "",
+    "needPermission": "",
+    "dbNotReady": "",
+    "somethingWrong": "",
+    "on": "",
+    "off": "",
+    "none": "",
+    "noneItalic": "",
+    "yes": "",
+    "no": "",
+    "unknown": "",
+    "noReason": "",
+    "noReasonProvided": "",
+    "back": "",
+    "next": ""
+  },
+  "language": {
+    "meSet": "",
+    "meReset": "",
+    "serverSet": "",
+    "needManageServer": "",
+    "infoTitle": "",
+    "infoYours": "",
+    "infoServer": "",
+    "infoUsing": "",
+    "infoNotSet": "",
+    "infoAvailable": "",
+    "infoHow": ""
+  },
+  "confirm": {
+    "confirm": "",
+    "cancel": "",
+    "processing": "",
+    "cancelled": "",
+    "timedOut": ""
+  },
+  "perm": {
+    "BanMembers": "",
+    "KickMembers": "",
+    "ModerateMembers": "",
+    "ManageMessages": "",
+    "ManageGuild": "",
+    "ManageRoles": "",
+    "ManageChannels": "",
+    "Administrator": "",
+    "ViewAuditLog": "",
+    "SendMessages": "",
+    "EmbedLinks": ""
+  },
+  "mod": {
+    "title": {
+      "ban": "",
+      "kick": "",
+      "tempban": "",
+      "timeout": "",
+      "untimeout": "",
+      "warn": "",
+      "unban": ""
+    },
+    "field": {
+      "user": "",
+      "moderator": "",
+      "reason": "",
+      "caseId": "",
+      "duration": "",
+      "totalWarnings": ""
+    },
+    "minutes_one": "",
+    "minutes_other": "",
+    "confirm": {
+      "ban": "",
+      "kick": "",
+      "tempban": "",
+      "timeout": ""
+    },
+    "confirmText": {
+      "ban": "",
+      "kick": "",
+      "tempban": "",
+      "timeout": ""
+    },
+    "unbanText": "",
+    "unbanDone": "",
+    "autoBanReason": "",
+    "autoTimeoutReason": "",
+    "err": {
+      "missingPerm": "",
+      "notInServer": "",
+      "banFailed": "",
+      "kickFailed": "",
+      "unbanFailed": "",
+      "tempbanFailed": "",
+      "durationMin": "",
+      "timeoutRange": "",
+      "timeoutFailed": "",
+      "untimeoutFailed": ""
+    }
+  },
+  "warnings": {
+    "none": "",
+    "title": "",
+    "total": "",
+    "noneForUser": "",
+    "caseNotFound": "",
+    "removedTitle": "",
+    "removedCase": "",
+    "remaining": "",
+    "nothingToClear": "",
+    "clearedTitle": "",
+    "clearedText": ""
+  },
+  "purge": {
+    "range": "",
+    "nothing": "",
+    "title": "",
+    "channel": "",
+    "deleted": "",
+    "filteredTo": "",
+    "done_one": "",
+    "done_other": "",
+    "failed": ""
+  },
+  "avatar": {
+    "title": "",
+    "url": ""
+  },
+  "fun": {
+    "poweredBy": "",
+    "refresh": "",
+    "catFailed": "",
+    "dogFailed": "",
+    "memeTitle": "",
+    "memeFailed": "",
+    "wallpaperTitle": "",
+    "wallpaperFailed": ""
+  },
+  "userinfo": {
+    "moreRoles": "",
+    "adminAll": "",
+    "perm": {
+      "Administrator": "",
+      "ManageGuild": "",
+      "ManageRoles": "",
+      "ManageChannels": "",
+      "BanMembers": "",
+      "KickMembers": "",
+      "ModerateMembers": "",
+      "ManageMessages": "",
+      "MentionEveryone": ""
+    },
+    "discordBadge": {
+      "Staff": "",
+      "Partner": "",
+      "Hypesquad": "",
+      "BugHunterLevel1": "",
+      "BugHunterLevel2": "",
+      "HypeSquadOnlineHouse1": "",
+      "HypeSquadOnlineHouse2": "",
+      "HypeSquadOnlineHouse3": "",
+      "PremiumEarlySupporter": "",
+      "VerifiedDeveloper": "",
+      "CertifiedModerator": "",
+      "ActiveDeveloper": "",
+      "VerifiedBot": ""
+    },
+    "tagBot": "",
+    "tagOwner": "",
+    "tagBooster": "",
+    "tagTimedOut": "",
+    "tagSpammer": "",
+    "badges": "",
+    "badgesCount": "",
+    "until": "",
+    "noBadges": "",
+    "discordBadges": "",
+    "created": "",
+    "joined": "",
+    "votes": "",
+    "voteActive": "",
+    "voteInactive": "",
+    "votePoints": "",
+    "voteStreak": "",
+    "nickname": "",
+    "boosting": "",
+    "roles": "",
+    "keyPerms": "",
+    "membership": "",
+    "notMember": "",
+    "warnings": "",
+    "warningsCount": "",
+    "btnAvatar": "",
+    "btnServerAvatar": "",
+    "btnBanner": "",
+    "btnProfile": ""
+  },
+  "badge": {
+    "owner": {
+      "name": "",
+      "description": ""
+    },
+    "developer": {
+      "name": "",
+      "description": ""
+    },
+    "staff": {
+      "name": "",
+      "description": ""
+    },
+    "partner": {
+      "name": "",
+      "description": ""
+    },
+    "bug_hunter": {
+      "name": "",
+      "description": ""
+    },
+    "early_supporter": {
+      "name": "",
+      "description": ""
+    },
+    "supporter": {
+      "name": "",
+      "description": ""
+    },
+    "top_voter": {
+      "name": "",
+      "description": ""
+    },
+    "voter_diamond": {
+      "name": "",
+      "description": ""
+    },
+    "voter_gold": {
+      "name": "",
+      "description": ""
+    },
+    "voter_silver": {
+      "name": "",
+      "description": ""
+    },
+    "voter_bronze": {
+      "name": "",
+      "description": ""
+    },
+    "streak_30": {
+      "name": "",
+      "description": ""
+    },
+    "streak_7": {
+      "name": "",
+      "description": ""
+    },
+    "streak_3": {
+      "name": "",
+      "description": ""
+    },
+    "dedicated_voter": {
+      "name": "",
+      "description": ""
+    },
+    "upvoter": {
+      "name": "",
+      "description": ""
+    }
+  },
+  "badgeDetail": {
+    "points_one": "",
+    "points_other": "",
+    "bestStreak_one": "",
+    "bestStreak_other": "",
+    "votes_one": "",
+    "votes_other": ""
+  },
+  "badges": {
+    "userTitle": "",
+    "userNone": "",
+    "people_one": "",
+    "people_other": "",
+    "title": "",
+    "description": "",
+    "howVote": "",
+    "howManual": "",
+    "voteHint": "",
+    "special": "",
+    "customCount_one": "",
+    "customCount_other": ""
+  },
+  "vote": {
+    "btnTopgg": "",
+    "btnFluxpoint": "",
+    "reminderOn": "",
+    "reminderOff": "",
+    "reminderDmTitle": "",
+    "reminderDmText": "",
+    "reminderDmOff": "",
+    "lbTitleMonth": "",
+    "lbTitleAll": "",
+    "lbEmpty": "",
+    "weekendNote": "",
+    "topVoterNote": "",
+    "title": "",
+    "intro": "",
+    "perkBadge": "",
+    "perkRole": "",
+    "perkCooldowns": "",
+    "perkXp": "",
+    "perkGiveaway": "",
+    "perkShoutout": "",
+    "keep": "",
+    "fieldStatus": "",
+    "statusActive": "",
+    "statusInactive": "",
+    "fieldVotes": "",
+    "votesValue": "",
+    "unavailable": "",
+    "fieldStreak": "",
+    "streakValue_one": "",
+    "streakValue_other": "",
+    "fieldReminders": "",
+    "remindersOn": "",
+    "remindersOff": "",
+    "fieldNext": "",
+    "goalPoints": "",
+    "goalStreak": ""
+  },
+  "serverinfo": {
+    "owner": "",
+    "created": "",
+    "botJoined": "",
+    "members": "",
+    "membersCount_one": "",
+    "membersCount_other": "",
+    "online": "",
+    "channels": "",
+    "channelsText": "",
+    "channelsOther": "",
+    "boosts": "",
+    "boostsValue": "",
+    "roles": "",
+    "rolesValue": "",
+    "emojis": "",
+    "emojisValue": "",
+    "stickersValue": "",
+    "security": "",
+    "verification": "",
+    "contentFilter": "",
+    "mfaNsfw": "",
+    "mfaRequired": "",
+    "mfaOff": "",
+    "verify": {
+      "none": "",
+      "low": "",
+      "medium": "",
+      "high": "",
+      "highest": ""
+    },
+    "filter": {
+      "off": "",
+      "noRoles": "",
+      "all": ""
+    },
+    "nsfw": {
+      "default": "",
+      "explicit": "",
+      "safe": "",
+      "ageRestricted": ""
+    },
+    "feature": {
+      "VERIFIED": "",
+      "PARTNERED": "",
+      "COMMUNITY": "",
+      "DISCOVERABLE": "",
+      "VANITY_URL": "",
+      "WELCOME_SCREEN_ENABLED": "",
+      "MEMBER_VERIFICATION_GATE_ENABLED": "",
+      "ROLE_SUBSCRIPTIONS_ENABLED": "",
+      "TICKETED_EVENTS_ENABLED": "",
+      "ANIMATED_ICON": "",
+      "BANNER": ""
+    },
+    "rules": "",
+    "afk": "",
+    "locale": "",
+    "more": "",
+    "features": "",
+    "btnIcon": "",
+    "btnBanner": "",
+    "btnSplash": ""
+  },
+  "botinfo": {
+    "description": "",
+    "versionLine": "",
+    "reach": "",
+    "reachValue": "",
+    "activity": "",
+    "commandsRun": "",
+    "votesValue": "",
+    "votesUnavailable": "",
+    "system": "",
+    "uptime": "",
+    "pingRam": "",
+    "unavailableNow": "",
+    "studiosDown": "",
+    "btnInvite": "",
+    "btnVote": "",
+    "btnSupport": "",
+    "btnPrivacy": "",
+    "btnDashboard": "",
+    "error": ""
+  },
+  "apiping": {
+    "rating": {
+      "excellent": "",
+      "good": "",
+      "slow": "",
+      "verySlow": "",
+      "unreachable": ""
+    },
+    "verdict": {
+      "0": "",
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "timedOut": "",
+    "gateway": "",
+    "gatewayNote": "",
+    "roundtrip": "",
+    "roundtripNote": "",
+    "discordApi": "",
+    "database": "",
+    "website": "",
+    "dashboard": "",
+    "na": "",
+    "author": "",
+    "legend": "",
+    "checkNumber": "",
+    "again": "",
+    "statusPage": ""
+  },
+  "emojis": {
+    "notCustom": "",
+    "yesRestricted": "",
+    "otherServer": "",
+    "type": "",
+    "animated": "",
+    "static": "",
+    "created": "",
+    "code": "",
+    "fromHere": "",
+    "openImage": "",
+    "usage": "",
+    "filter": {
+      "static": "",
+      "animated": ""
+    },
+    "author": "",
+    "showing": "",
+    "none": "",
+    "footer": ""
+  },
+  "permission": {
+    "noSelf": "",
+    "noChannelPerms": "",
+    "neededFor": "",
+    "missingInChannel": "",
+    "missingFeature": "",
+    "title": "",
+    "hasAdmin": "",
+    "checkedAgainst": "",
+    "serverWide": "",
+    "channel": "",
+    "features": "",
+    "missing": "",
+    "name": {
+      "ManageGuild": "",
+      "ManageRoles": "",
+      "ManageChannels": "",
+      "ManageMessages": "",
+      "ViewAuditLog": "",
+      "ModerateMembers": "",
+      "KickMembers": "",
+      "BanMembers": "",
+      "ViewChannel": "",
+      "SendMessages": "",
+      "EmbedLinks": "",
+      "ReadMessageHistory": ""
+    },
+    "why": {
+      "ManageGuild": "",
+      "ManageRoles": "",
+      "ManageChannels": "",
+      "ManageMessages": "",
+      "ViewAuditLog": "",
+      "ModerateMembers": "",
+      "KickMembers": "",
+      "BanMembers": ""
+    },
+    "feature": {
+      "community": ""
+    },
+    "featureWhy": {
+      "community": ""
+    }
+  },
+  "settings": {
+    "notSet": "",
+    "noneSet": "",
+    "dashboardNote": "",
+    "title": "",
+    "noSetup": "",
+    "current": "",
+    "logChannel": "",
+    "banTimeout": "",
+    "tempBanDuration": "",
+    "warnThreshold": "",
+    "language": "",
+    "hours_one": "",
+    "hours_other": "",
+    "days_one": "",
+    "days_other": "",
+    "warns_one": "",
+    "warns_other": "",
+    "automodHeader": "",
+    "fallsBack": "",
+    "error": "",
+    "am": {
+      "enabled": "",
+      "antiScam": "",
+      "antiEveryone": "",
+      "antiMassMention": "",
+      "sync": "",
+      "bypassRoles": "",
+      "blacklist": "",
+      "logChannel": ""
+    }
+  },
+  "setup": {
+    "saved": "",
+    "saveFailed": "",
+    "noHoneypot": "",
+    "honeypotRemoved": "",
+    "replaceTitle": "",
+    "replaceText_one": "",
+    "replaceText_other": "",
+    "replace": "",
+    "honeypotCreated": "",
+    "honeypotCreatedText": "",
+    "honeypotFailed": ""
+  },
+  "caseType": {
+    "ban": "",
+    "kick": "",
+    "timeout": "",
+    "untimeout": "",
+    "tempban": "",
+    "unban": "",
+    "warn": "",
+    "automod-timeout": "",
+    "automod-kick": "",
+    "automod-ban": "",
+    "honeypot-ban": ""
+  },
+  "modlogs": {
+    "none": "",
+    "title": "",
+    "footer_one": "",
+    "footer_other": ""
+  },
+  "help": {
+    "privacyPage": "",
+    "privacyTitle": "",
+    "privacyIntro": "",
+    "storeTitle": "",
+    "store": {
+      "settings": "",
+      "moderation": "",
+      "tickets": "",
+      "votes": "",
+      "xp": "",
+      "community": "",
+      "noText": ""
+    },
+    "deleteTitle": "",
+    "deleteIntro": "",
+    "deleteSupport": "",
+    "deleteEmail": "",
+    "deleteVisit": "",
+    "privacyFooter": "",
+    "title": "",
+    "browse": "",
+    "agree": "",
+    "categoryLine_one": "",
+    "categoryLine_other": "",
+    "footer": "",
+    "changelogTitle": "",
+    "changelogText": "",
+    "supportTitle": "",
+    "supportText": "",
+    "emptyTitle": "",
+    "emptyText": "",
+    "selectCategory": "",
+    "commandCount_one": "",
+    "commandCount_other": "",
+    "privacyOption": "",
+    "home": "",
+    "category": {
+      "General": "",
+      "Community": "",
+      "Fun": "",
+      "Moderation": "",
+      "Configuration": "",
+      "Owner": "",
+      "Other": ""
+    }
+  },
+  "changelog": {
+    "title": "",
+    "majorTitle": "",
+    "majorUpdate": "",
+    "latestRelease": "",
+    "released": "",
+    "highlights": "",
+    "whatsNew": "",
+    "releaseNotes": "",
+    "changes": "",
+    "footer": "",
+    "selectVersion": "",
+    "latestTag": "",
+    "majorShort": "",
+    "notFound": "",
+    "menuExpired": ""
+  },
+  "news": {
+    "noGuild": "",
+    "noChannel": "",
+    "empty": "",
+    "copyFailed": "",
+    "error": ""
+  },
+  "logs": {
+    "audit": {
+      "GuildUpdate": "",
+      "ChannelCreate": "",
+      "ChannelUpdate": "",
+      "ChannelDelete": "",
+      "ChannelOverwriteCreate": "",
+      "ChannelOverwriteUpdate": "",
+      "ChannelOverwriteDelete": "",
+      "EmojiCreate": "",
+      "EmojiUpdate": "",
+      "EmojiDelete": "",
+      "StickerCreate": "",
+      "StickerUpdate": "",
+      "StickerDelete": "",
+      "InviteCreate": "",
+      "InviteDelete": "",
+      "WebhookCreate": "",
+      "WebhookUpdate": "",
+      "WebhookDelete": "",
+      "IntegrationCreate": "",
+      "IntegrationUpdate": "",
+      "IntegrationDelete": "",
+      "BotAdd": "",
+      "GuildScheduledEventCreate": "",
+      "GuildScheduledEventUpdate": "",
+      "GuildScheduledEventDelete": "",
+      "ThreadCreate": "",
+      "ThreadUpdate": "",
+      "ThreadDelete": "",
+      "AutoModerationRuleCreate": "",
+      "AutoModerationRuleUpdate": "",
+      "AutoModerationRuleDelete": "",
+      "StageInstanceCreate": "",
+      "StageInstanceDelete": "",
+      "SoundboardSoundCreate": "",
+      "SoundboardSoundUpdate": "",
+      "SoundboardSoundDelete": "",
+      "RoleCreate": "",
+      "RoleUpdate": "",
+      "RoleDelete": "",
+      "MemberRoleUpdate": "",
+      "MemberUpdate": "",
+      "MemberKick": "",
+      "MemberBanAdd": "",
+      "MemberBanRemove": "",
+      "MemberPrune": "",
+      "MemberMove": "",
+      "MemberDisconnect": "",
+      "MessagePin": "",
+      "MessageUnpin": "",
+      "MessageBulkDelete": ""
+    },
+    "key": {
+      "name": "",
+      "topic": "",
+      "nsfw": "",
+      "rate_limit_per_user": "",
+      "bitrate": "",
+      "user_limit": "",
+      "position": "",
+      "parent_id": "",
+      "type": "",
+      "color": "",
+      "colors": "",
+      "hoist": "",
+      "mentionable": "",
+      "permissions": "",
+      "icon_hash": "",
+      "unicode_emoji": "",
+      "nick": "",
+      "deaf": "",
+      "mute": "",
+      "communication_disabled_until": "",
+      "afk_channel_id": "",
+      "afk_timeout": "",
+      "banner_hash": "",
+      "description": "",
+      "default_message_notifications": "",
+      "explicit_content_filter": "",
+      "mfa_level": "",
+      "owner_id": "",
+      "preferred_locale": "",
+      "premium_progress_bar_enabled": "",
+      "public_updates_channel_id": "",
+      "rules_channel_id": "",
+      "splash_hash": "",
+      "system_channel_id": "",
+      "system_channel_flags": "",
+      "vanity_url_code": "",
+      "verification_level": "",
+      "widget_enabled": "",
+      "widget_channel_id": "",
+      "discovery_splash_hash": "",
+      "code": "",
+      "channel_id": "",
+      "inviter_id": "",
+      "max_uses": "",
+      "uses": "",
+      "max_age": "",
+      "temporary": "",
+      "avatar_hash": "",
+      "tags": "",
+      "format_type": "",
+      "available": "",
+      "archived": "",
+      "locked": "",
+      "auto_archive_duration": "",
+      "default_auto_archive_duration": "",
+      "invitable": "",
+      "enabled": "",
+      "flags": "",
+      "video_quality_mode": "",
+      "rtc_region": "",
+      "applied_tags": "",
+      "default_reaction_emoji": "",
+      "available_tags": "",
+      "default_thread_rate_limit_per_user": "",
+      "privacy_level": "",
+      "status": "",
+      "entity_type": "",
+      "location": "",
+      "scheduled_start_time": "",
+      "scheduled_end_time": "",
+      "trigger_metadata": "",
+      "actions": "",
+      "exempt_roles": "",
+      "exempt_channels": "",
+      "event_type": "",
+      "volume": "",
+      "emoji_id": "",
+      "emoji_name": "",
+      "sound_id": "",
+      "expire_behavior": "",
+      "expire_grace_period": "",
+      "allow": "",
+      "deny": "",
+      "id": ""
+    },
+    "category": {
+      "messages": {
+        "label": "",
+        "description": ""
+      },
+      "roles": {
+        "label": "",
+        "description": ""
+      },
+      "server": {
+        "label": "",
+        "description": ""
+      },
+      "members": {
+        "label": "",
+        "description": ""
+      }
+    },
+    "channelType": {
+      "Text": "",
+      "Voice": "",
+      "Category": "",
+      "Announcement": "",
+      "Stage": "",
+      "Forum": "",
+      "Media": "",
+      "Thread": "",
+      "Private thread": "",
+      "Announcement thread": ""
+    },
+    "footer": "",
+    "off": "",
+    "noneValue": "",
+    "changed": "",
+    "noChange": "",
+    "member": "",
+    "server": "",
+    "target": "",
+    "added": "",
+    "removed": "",
+    "someone": "",
+    "channel": "",
+    "for": "",
+    "messages": "",
+    "messageBy": "",
+    "jump": "",
+    "movedTo": "",
+    "members": "",
+    "pruned_one": "",
+    "pruned_other": "",
+    "by": "",
+    "reason": "",
+    "noDetails": "",
+    "msgDeleted": "",
+    "author": "",
+    "uncached": "",
+    "sent": "",
+    "deletedBy": "",
+    "content": "",
+    "contentHidden": "",
+    "attachments": "",
+    "msgEdited": "",
+    "before": "",
+    "after": "",
+    "notCached": "",
+    "empty": "",
+    "noText": "",
+    "files_one": "",
+    "files_other": "",
+    "beforeStart_one": "",
+    "beforeStart_other": "",
+    "needAuditLog": "",
+    "needIn": "",
+    "permFlag": {
+      "CreateInstantInvite": "",
+      "KickMembers": "",
+      "BanMembers": "",
+      "Administrator": "",
+      "ManageChannels": "",
+      "ManageGuild": "",
+      "AddReactions": "",
+      "ViewAuditLog": "",
+      "PrioritySpeaker": "",
+      "Stream": "",
+      "ViewChannel": "",
+      "SendMessages": "",
+      "SendTTSMessages": "",
+      "ManageMessages": "",
+      "EmbedLinks": "",
+      "AttachFiles": "",
+      "ReadMessageHistory": "",
+      "MentionEveryone": "",
+      "UseExternalEmojis": "",
+      "ViewGuildInsights": "",
+      "Connect": "",
+      "Speak": "",
+      "MuteMembers": "",
+      "DeafenMembers": "",
+      "MoveMembers": "",
+      "UseVAD": "",
+      "ChangeNickname": "",
+      "ManageNicknames": "",
+      "ManageRoles": "",
+      "ManageWebhooks": "",
+      "ManageEmojisAndStickers": "",
+      "ManageGuildExpressions": "",
+      "UseApplicationCommands": "",
+      "RequestToSpeak": "",
+      "ManageEvents": "",
+      "ManageThreads": "",
+      "CreatePublicThreads": "",
+      "CreatePrivateThreads": "",
+      "UseExternalStickers": "",
+      "SendMessagesInThreads": "",
+      "UseEmbeddedActivities": "",
+      "ModerateMembers": "",
+      "ViewCreatorMonetizationAnalytics": "",
+      "UseSoundboard": "",
+      "CreateGuildExpressions": "",
+      "CreateEvents": "",
+      "UseExternalSounds": "",
+      "SendVoiceMessages": "",
+      "SetVoiceChannelStatus": "",
+      "SendPolls": "",
+      "UseExternalApps": "",
+      "PinMessages": "",
+      "BypassSlowmode": ""
+    },
+    "cmd": {
+      "allLogs": "",
+      "typeLogs": "",
+      "setDone": "",
+      "missing": "",
+      "noContentNote": "",
+      "allOff": "",
+      "typeOff": "",
+      "ignored": "",
+      "unignored": "",
+      "botsOn": "",
+      "botsOff": "",
+      "statusTitle": "",
+      "ignoredChannels": "",
+      "botMessages": "",
+      "notLogged": "",
+      "logged": "",
+      "messageText": "",
+      "shown": "",
+      "hidden": "",
+      "missingPerms": ""
+    }
+  },
+  "lockdown": {
+    "needPerms": "",
+    "statusTitle": "",
+    "byWhen": "",
+    "nothingLocked": "",
+    "cantLock": "",
+    "alreadyLocked": "",
+    "lockedTitle": "",
+    "lockedText": "",
+    "logLocked": "",
+    "logLockedText": "",
+    "lockedDone": "",
+    "noTargets": "",
+    "serverTitle": "",
+    "serverText": "",
+    "logServer": "",
+    "logServerText": "",
+    "serverDone_one": "",
+    "serverDone_other": "",
+    "couldntLock": "",
+    "endHint": "",
+    "notLockedByMe": "",
+    "unlockedTitle": "",
+    "unlockedText": "",
+    "logUnlocked": "",
+    "logUnlockedText": "",
+    "unlockedDone": "",
+    "overTitle": "",
+    "logEnded": "",
+    "logEndedText": "",
+    "endDone_one": "",
+    "endDone_other": ""
+  },
+  "case": {
+    "recentTitle": "",
+    "none": "",
+    "notFound": "",
+    "reasonChangedTitle": "",
+    "reasonChangedText": "",
+    "reasonUpdated": "",
+    "title": "",
+    "when": "",
+    "edited": "",
+    "editedValue_one": "",
+    "editedValue_other": ""
+  },
+  "note": {
+    "saved": "",
+    "title": "",
+    "none": "",
+    "deleted": "",
+    "notFound": ""
+  },
+  "remind": {
+    "badTime": "",
+    "setHere": "",
+    "setDm": "",
+    "limit": "",
+    "listTitle": "",
+    "inChannel": "",
+    "byDm": "",
+    "none": "",
+    "deleted": "",
+    "notFound": "",
+    "title": "",
+    "setAt": "",
+    "couldntDm": ""
+  },
+  "leveling": {
+    "defaultMessage": "",
+    "unlocked": "",
+    "inServer": ""
+  },
+  "levels": {
+    "lbTitle": "",
+    "lbLine": "",
+    "lbEmpty": "",
+    "lbFooter_one": "",
+    "lbFooter_other": "",
+    "off": "",
+    "whereCurrent": "",
+    "whereChannelUnset": "",
+    "whereDm": "",
+    "settingsTitle": "",
+    "fieldLeveling": "",
+    "fieldMessages": "",
+    "fieldXp": "",
+    "xpValue": "",
+    "fieldMessage": "",
+    "fieldRoles": "",
+    "levelN": "",
+    "noRoles": "",
+    "fieldNoXp": "",
+    "enabledOn": "",
+    "enabledOff": "",
+    "pickChannel": "",
+    "savedPreview": "",
+    "roleCantGive": "",
+    "roleTooHigh": "",
+    "roleAdded": "",
+    "roleRemoved": "",
+    "ignored": "",
+    "unignored": "",
+    "levelSet": "",
+    "resetConfirm": "",
+    "resetDone_one": "",
+    "resetDone_other": ""
+  },
+  "rank": {
+    "off": "",
+    "bots": "",
+    "author": "",
+    "level": "",
+    "rank": "",
+    "unranked": "",
+    "messages": "",
+    "progress": "",
+    "totalXp": "",
+    "nextReward": "",
+    "nextRewardValue": "",
+    "boost": "",
+    "boostActive": "",
+    "boostHint": ""
+  },
+  "giveaway": {
+    "winnersLabel_one": "",
+    "winnersLabel_other": "",
+    "noEntries": "",
+    "ended": "",
+    "ends": "",
+    "winnersCount": "",
+    "hostedBy": "",
+    "mustHave": "",
+    "voterBonus": "",
+    "entries_one": "",
+    "entries_other": "",
+    "endedShort": "",
+    "enter": "",
+    "gone": "",
+    "over": "",
+    "left": "",
+    "already": "",
+    "alreadyBonus": "",
+    "leave": "",
+    "needRole": "",
+    "alreadyShort": "",
+    "joined": "",
+    "joinedBonus": "",
+    "joinedHint": "",
+    "congrats_one": "",
+    "congrats_other": "",
+    "congratsReroll_one": "",
+    "congratsReroll_other": "",
+    "nobody": "",
+    "nobodyElse": "",
+    "badDuration": "",
+    "cantPost": "",
+    "started": "",
+    "listTitle": "",
+    "endsAt": "",
+    "noneRunning": "",
+    "notFound": "",
+    "alreadyEnded": "",
+    "alreadyEnding": "",
+    "endedWinners_one": "",
+    "endedWinners_other": "",
+    "endedNobody": "",
+    "notEnded": "",
+    "newWinners_one": "",
+    "newWinners_other": "",
+    "nobodyLeft": "",
+    "alreadyEndedShort": "",
+    "cancelledTitle": "",
+    "cancelled": ""
+  },
+  "suggestions": {
+    "status": {
+      "pending": "",
+      "approved": "",
+      "denied": "",
+      "considering": "",
+      "implemented": ""
+    },
+    "title": "",
+    "statusField": "",
+    "votesField": "",
+    "anonymous": "",
+    "responseFrom": "",
+    "staff": "",
+    "gone": "",
+    "closed": "",
+    "notSetUp": "",
+    "cantPost": "",
+    "posted": "",
+    "channelSet": "",
+    "channelSetThreads": "",
+    "off": "",
+    "notFound": "",
+    "author": "",
+    "authorAnon": "",
+    "dmTitle": {
+      "approved": "",
+      "denied": "",
+      "considering": "",
+      "implemented": ""
+    },
+    "response": "",
+    "view": "",
+    "nowStatus": ""
+  },
+  "roles": {
+    "layout": {
+      "list": "",
+      "buttons": "",
+      "menu": ""
+    },
+    "mode": {
+      "multiple": "",
+      "single": "",
+      "add-only": ""
+    },
+    "problem": {
+      "everyone": "",
+      "managed": "",
+      "dangerous": "",
+      "aboveBot": "",
+      "aboveYou": ""
+    },
+    "footer": {
+      "upTo": "",
+      "needs": "",
+      "menu": "",
+      "clickAgain": "",
+      "clickGet": ""
+    },
+    "noRolesYet": "",
+    "pickOne": "",
+    "pickMany": "",
+    "roleGone": "",
+    "added": "",
+    "removed": "",
+    "nothingChanged": "",
+    "yourRoles": "",
+    "panelGone": "",
+    "needRole": "",
+    "notOnPanel": "",
+    "addOnlyHave": "",
+    "maxReached_one": "",
+    "maxReached_other": "",
+    "check": {
+      "needTitle": "",
+      "titleLong": "",
+      "descLong": "",
+      "badLayout": "",
+      "badMode": "",
+      "badColor": "",
+      "badImage": "",
+      "badMax": "",
+      "tooManyForLayout": "",
+      "duplicate": "",
+      "needLabel": "",
+      "roleDescLong": "",
+      "tooBig": "",
+      "tooMuchText": "",
+      "roleMissing": "",
+      "requiredMissing": ""
+    },
+    "cmd": {
+      "needManageRoles": "",
+      "cantPost": "",
+      "posted": "",
+      "listTitle": "",
+      "defaultTitle": "",
+      "inChannel": "",
+      "max": "",
+      "noRoles": "",
+      "noPanels": "",
+      "notPanel": "",
+      "deleted": "",
+      "alreadyOn": "",
+      "notOn": "",
+      "badEmoji": "",
+      "badImage": "",
+      "messageGone": "",
+      "addedRole": "",
+      "removedRole": "",
+      "updated": ""
+    }
+  },
+  "automod": {
+    "syncFailed": "",
+    "logFallback": "",
+    "stepTimeout": "",
+    "stepKick": "",
+    "stepBan": "",
+    "filter": {
+      "profanity": "",
+      "sexual": "",
+      "slurs": ""
+    },
+    "filterLong": {
+      "profanity": "",
+      "sexual": "",
+      "slurs": ""
+    },
+    "statusTitle": "",
+    "statusCurrent": "",
+    "syncOffWarning": "",
+    "field": {
+      "flood": "",
+      "wordFilters": "",
+      "linkFilter": "",
+      "strikes": "",
+      "allowedLinks": "",
+      "exemptChannels": "",
+      "bypassRoles": "",
+      "blacklist": "",
+      "logChannel": ""
+    },
+    "floodValue": "",
+    "floodTimeout": "",
+    "deleteOnly": "",
+    "allLinks": "",
+    "invites": "",
+    "forgottenAfter": "",
+    "feature": {
+      "enabled": "",
+      "antiScam": "",
+      "antiEveryone": "",
+      "antiMassMention": "",
+      "useDiscordAutomod": ""
+    },
+    "toggledOn": "",
+    "toggledOff": "",
+    "bypassAdded": "",
+    "bypassRemoved": "",
+    "blacklistEmpty": "",
+    "blacklistTitle": "",
+    "blacklistNeedEntry": "",
+    "blacklistAdded": "",
+    "blacklistRemoved": "",
+    "logSet": "",
+    "logCleared": "",
+    "floodOn": "",
+    "floodOnTimeout": "",
+    "floodOff": "",
+    "wordFiltersOn": "",
+    "wordFiltersOff": "",
+    "linksAll": "",
+    "linksInvites": "",
+    "linksOff": "",
+    "allowTitle": "",
+    "allowEmpty": "",
+    "allowNeedEntry": "",
+    "allowAdded": "",
+    "allowRemoved": "",
+    "exemptAdded": "",
+    "exemptRemoved": "",
+    "noPunishments": "",
+    "strikesOn": "",
+    "strikesOff": "",
+    "strikesCleared": "",
+    "noStrikes": "",
+    "userStrikes_one": "",
+    "userStrikes_other": "",
+    "strikesOffNote": "",
+    "error": "",
+    "btn": {
+      "warn": "",
+      "mute": "",
+      "kick": "",
+      "tempban": "",
+      "ban": "",
+      "ignore": ""
+    },
+    "footer": "",
+    "floodWarning": "",
+    "floodTimedOut_one": "",
+    "floodTimedOut_other": "",
+    "floodCount": "",
+    "timeoutLabel": "",
+    "noTimeout": "",
+    "massMentionWarning": "",
+    "mentions": "",
+    "alert": {
+      "flood": "",
+      "massMention": "",
+      "scam": "",
+      "word": "",
+      "link": "",
+      "everyone": "",
+      "blocked": ""
+    },
+    "reason": {
+      "flood": "",
+      "massMention": "",
+      "scam": "",
+      "word": "",
+      "link": "",
+      "everyone": "",
+      "blocked": ""
+    },
+    "matched": "",
+    "message": "",
+    "blockedText": "",
+    "blockedNoContent": "",
+    "selectAction": "",
+    "noActionPerm": "",
+    "actionTaken": "",
+    "result": {
+      "ignored": "",
+      "warned": "",
+      "muted": "",
+      "kicked": "",
+      "tempbanned": "",
+      "banned": ""
+    },
+    "memberGone": "",
+    "actionFailed": "",
+    "dm": {
+      "warnTitle": "",
+      "warnText": "",
+      "muteTitle": "",
+      "muteText": "",
+      "kickTitle": "",
+      "kickText": "",
+      "tempbanTitle": "",
+      "tempbanText": "",
+      "banTitle": "",
+      "banText": ""
+    }
+  },
+  "strikes": {
+    "recorded": "",
+    "timedOut": "",
+    "kicked": "",
+    "banned": "",
+    "noPermission": "",
+    "failed": "",
+    "dmKicked": "",
+    "dmBanned": "",
+    "logTitle": "",
+    "strikesLabel": "",
+    "inLastDays": "",
+    "resultLabel": "",
+    "lastReason": ""
+  },
+  "support": {
+    "modalTitle": "",
+    "subject": "",
+    "describe": "",
+    "unavailable": "",
+    "alreadyOpen": "",
+    "alreadyOpenShort": "",
+    "createFailed": "",
+    "created": "",
+    "closeWord": "",
+    "closedTitle": "",
+    "closedByYou": "",
+    "closedByStaff": "",
+    "footer": "",
+    "replyTitle": "",
+    "replyFooter": "",
+    "historyTitle": "",
+    "historyEmpty": "",
+    "statusOpen": "",
+    "statusClosed": ""
+  },
+  "cc": {
+    "scan": {
+      "pattern": "",
+      "blacklist": "",
+      "domain": ""
+    },
+    "err": {
+      "btnList": "",
+      "btnMax": "",
+      "btnInvalid": "",
+      "btnLabel": "",
+      "btnLabelLong": "",
+      "btnStyle": "",
+      "btnUrl": "",
+      "btnReply": "",
+      "btnReplyLong": "",
+      "trigger": "",
+      "triggerLong": "",
+      "type": "",
+      "text": "",
+      "textLong": "",
+      "embedEmpty": "",
+      "embedTitle": "",
+      "embedDesc": "",
+      "embedFooter": "",
+      "embedAuthor": "",
+      "embedThumb": "",
+      "embedImage": ""
+    },
+    "blocked": "",
+    "notFoundTrigger": "",
+    "scamTitle": "",
+    "scamText": "",
+    "scamFooter": "",
+    "flaggedTitle": "",
+    "restoredTitle": "",
+    "flaggedText": "",
+    "restoredText": "",
+    "notFound": "",
+    "sendFailed": "",
+    "buttonGone": ""
+  },
+  "honeypot": {
+    "title": "",
+    "text": "",
+    "counter_one": "",
+    "counter_other": "",
+    "channelName": "",
+    "topic": "",
+    "dmText": "",
+    "logTitle": "",
+    "totalCaught": ""
+  },
+  "voteAnnounce": {
+    "someone": "",
+    "progress_one": "",
+    "progress_other": "",
+    "progressStreak_one": "",
+    "progressStreak_other": "",
+    "unlocked": "",
+    "testTitle": "",
+    "title": "",
+    "testText": "",
+    "thanks": "",
+    "weekend": "",
+    "perks": "",
+    "perksRole": "",
+    "voteOn": "",
+    "reminderHint": "",
+    "monthlyTitle": "",
+    "monthlyText": ""
+  },
+  "slash": {
+    "apiping": {
+      "desc": ""
+    },
+    "automod": {
+      "desc": "",
+      "status": {
+        "desc": ""
+      },
+      "toggle": {
+        "desc": "",
+        "feature": {
+          "desc": "",
+          "c": {
+            "enabled": "",
+            "antiScam": "",
+            "antiEveryone": "",
+            "antiMassMention": "",
+            "useDiscordAutomod": ""
+          }
+        },
+        "state": {
+          "desc": ""
+        }
+      },
+      "bypass-role": {
+        "desc": "",
+        "action": {
+          "desc": "",
+          "c": {
+            "add": "",
+            "remove": ""
+          }
+        },
+        "role": {
+          "desc": ""
+        }
+      },
+      "blacklist": {
+        "desc": "",
+        "action": {
+          "desc": "",
+          "c": {
+            "add": "",
+            "remove": "",
+            "list": ""
+          }
+        },
+        "entry": {
+          "desc": ""
+        }
+      },
+      "log-channel": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        }
+      },
+      "flood": {
+        "desc": "",
+        "enabled": {
+          "desc": ""
+        },
+        "messages": {
+          "desc": ""
+        },
+        "seconds": {
+          "desc": ""
+        },
+        "timeout_minutes": {
+          "desc": ""
+        }
+      },
+      "word-filters": {
+        "desc": "",
+        "profanity": {
+          "desc": ""
+        },
+        "sexual": {
+          "desc": ""
+        },
+        "slurs": {
+          "desc": ""
+        }
+      },
+      "links": {
+        "desc": "",
+        "invites": {
+          "desc": ""
+        },
+        "all_links": {
+          "desc": ""
+        }
+      },
+      "allow-link": {
+        "desc": "",
+        "action": {
+          "desc": "",
+          "c": {
+            "add": "",
+            "remove": "",
+            "list": ""
+          }
+        },
+        "entry": {
+          "desc": ""
+        }
+      },
+      "exempt-channel": {
+        "desc": "",
+        "action": {
+          "desc": "",
+          "c": {
+            "add": "",
+            "remove": ""
+          }
+        },
+        "channel": {
+          "desc": ""
+        }
+      },
+      "strikes": {
+        "desc": "",
+        "enabled": {
+          "desc": ""
+        },
+        "timeout_at": {
+          "desc": ""
+        },
+        "timeout_minutes": {
+          "desc": ""
+        },
+        "kick_at": {
+          "desc": ""
+        },
+        "ban_at": {
+          "desc": ""
+        },
+        "forget_after_days": {
+          "desc": ""
+        }
+      },
+      "user-strikes": {
+        "desc": "",
+        "user": {
+          "desc": ""
+        },
+        "clear": {
+          "desc": ""
+        }
+      }
+    },
+    "avatar": {
+      "desc": "",
+      "size": {
+        "desc": "",
+        "c": {
+          "128": "",
+          "256": "",
+          "512": "",
+          "1024": "",
+          "2048": ""
+        }
+      },
+      "target": {
+        "desc": ""
+      }
+    },
+    "badges": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      }
+    },
+    "ban": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "botinfo": {
+      "desc": ""
+    },
+    "buttonroles": {
+      "desc": "",
+      "create": {
+        "desc": "",
+        "title": {
+          "desc": ""
+        },
+        "description": {
+          "desc": ""
+        },
+        "layout": {
+          "desc": "",
+          "c": {
+            "list": "",
+            "buttons": "",
+            "menu": ""
+          }
+        },
+        "mode": {
+          "desc": "",
+          "c": {
+            "multiple": "",
+            "single": "",
+            "add-only": ""
+          }
+        },
+        "max": {
+          "desc": ""
+        },
+        "required_role": {
+          "desc": ""
+        },
+        "color": {
+          "desc": ""
+        },
+        "image": {
+          "desc": ""
+        },
+        "placeholder": {
+          "desc": ""
+        },
+        "channel": {
+          "desc": ""
+        }
+      },
+      "add": {
+        "desc": "",
+        "panel": {
+          "desc": ""
+        },
+        "role": {
+          "desc": ""
+        },
+        "label": {
+          "desc": ""
+        },
+        "description": {
+          "desc": ""
+        },
+        "emoji": {
+          "desc": ""
+        },
+        "style": {
+          "desc": "",
+          "c": {
+            "primary": "",
+            "secondary": "",
+            "success": "",
+            "danger": ""
+          }
+        }
+      },
+      "remove": {
+        "desc": "",
+        "panel": {
+          "desc": ""
+        },
+        "role": {
+          "desc": ""
+        }
+      },
+      "edit": {
+        "desc": "",
+        "panel": {
+          "desc": ""
+        },
+        "title": {
+          "desc": ""
+        },
+        "description": {
+          "desc": ""
+        },
+        "layout": {
+          "desc": "",
+          "c": {
+            "list": "",
+            "buttons": "",
+            "menu": ""
+          }
+        },
+        "mode": {
+          "desc": "",
+          "c": {
+            "multiple": "",
+            "single": "",
+            "add-only": ""
+          }
+        },
+        "max": {
+          "desc": ""
+        },
+        "required_role": {
+          "desc": ""
+        },
+        "color": {
+          "desc": ""
+        },
+        "image": {
+          "desc": ""
+        },
+        "placeholder": {
+          "desc": ""
+        },
+        "clear_required_role": {
+          "desc": ""
+        },
+        "clear_image": {
+          "desc": ""
+        }
+      },
+      "delete": {
+        "desc": "",
+        "panel": {
+          "desc": ""
+        }
+      },
+      "list": {
+        "desc": ""
+      }
+    },
+    "case": {
+      "desc": "",
+      "view": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        }
+      },
+      "reason": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "recent": {
+        "desc": ""
+      }
+    },
+    "cat": {
+      "desc": ""
+    },
+    "cc": {
+      "desc": "",
+      "trigger": {
+        "desc": ""
+      }
+    },
+    "changelog": {
+      "desc": ""
+    },
+    "clearwarn": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      }
+    },
+    "dog": {
+      "desc": ""
+    },
+    "emojis": {
+      "desc": "",
+      "type": {
+        "desc": "",
+        "c": {
+          "all": "",
+          "static": "",
+          "animated": ""
+        }
+      },
+      "search": {
+        "desc": ""
+      },
+      "emoji": {
+        "desc": ""
+      }
+    },
+    "giveaway": {
+      "desc": "",
+      "start": {
+        "desc": "",
+        "prize": {
+          "desc": ""
+        },
+        "duration": {
+          "desc": ""
+        },
+        "winners": {
+          "desc": ""
+        },
+        "channel": {
+          "desc": ""
+        },
+        "required_role": {
+          "desc": ""
+        },
+        "voter_bonus": {
+          "desc": ""
+        },
+        "description": {
+          "desc": ""
+        }
+      },
+      "end": {
+        "desc": "",
+        "giveaway": {
+          "desc": ""
+        }
+      },
+      "reroll": {
+        "desc": "",
+        "giveaway": {
+          "desc": ""
+        },
+        "winners": {
+          "desc": ""
+        }
+      },
+      "cancel": {
+        "desc": "",
+        "giveaway": {
+          "desc": ""
+        }
+      },
+      "list": {
+        "desc": ""
+      }
+    },
+    "help": {
+      "desc": ""
+    },
+    "kick": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "language": {
+      "desc": "",
+      "me": {
+        "desc": "",
+        "language": {
+          "desc": "",
+          "c": {
+            "en": "",
+            "es": "",
+            "fr": "",
+            "tr": "",
+            "reset": ""
+          }
+        }
+      },
+      "server": {
+        "desc": "",
+        "language": {
+          "desc": "",
+          "c": {
+            "en": "",
+            "es": "",
+            "fr": "",
+            "tr": ""
+          }
+        }
+      },
+      "info": {
+        "desc": ""
+      }
+    },
+    "levels": {
+      "desc": "",
+      "leaderboard": {
+        "desc": ""
+      },
+      "settings": {
+        "desc": ""
+      },
+      "enable": {
+        "desc": "",
+        "enabled": {
+          "desc": ""
+        }
+      },
+      "announce": {
+        "desc": "",
+        "where": {
+          "desc": "",
+          "c": {
+            "current": "",
+            "channel": "",
+            "dm": "",
+            "off": ""
+          }
+        },
+        "channel": {
+          "desc": ""
+        },
+        "message": {
+          "desc": ""
+        }
+      },
+      "role-add": {
+        "desc": "",
+        "level": {
+          "desc": ""
+        },
+        "role": {
+          "desc": ""
+        }
+      },
+      "role-remove": {
+        "desc": "",
+        "role": {
+          "desc": ""
+        }
+      },
+      "ignore-channel": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        }
+      },
+      "set-level": {
+        "desc": "",
+        "user": {
+          "desc": ""
+        },
+        "level": {
+          "desc": ""
+        }
+      },
+      "reset": {
+        "desc": "",
+        "confirm": {
+          "desc": ""
+        }
+      }
+    },
+    "lockdown": {
+      "desc": "",
+      "channel": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "server": {
+        "desc": "",
+        "reason": {
+          "desc": ""
+        }
+      },
+      "end": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        }
+      },
+      "status": {
+        "desc": ""
+      }
+    },
+    "logs": {
+      "desc": "",
+      "set": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        },
+        "type": {
+          "desc": "",
+          "c": {
+            "all": "",
+            "messages": "",
+            "roles": "",
+            "server": "",
+            "members": ""
+          }
+        }
+      },
+      "off": {
+        "desc": "",
+        "type": {
+          "desc": "",
+          "c": {
+            "all": "",
+            "messages": "",
+            "roles": "",
+            "server": "",
+            "members": ""
+          }
+        }
+      },
+      "ignore": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        }
+      },
+      "bots": {
+        "desc": "",
+        "log": {
+          "desc": ""
+        }
+      },
+      "status": {
+        "desc": ""
+      }
+    },
+    "meme": {
+      "desc": ""
+    },
+    "modlogs": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      }
+    },
+    "news": {
+      "desc": ""
+    },
+    "note": {
+      "desc": "",
+      "add": {
+        "desc": "",
+        "user": {
+          "desc": ""
+        },
+        "text": {
+          "desc": ""
+        }
+      },
+      "list": {
+        "desc": "",
+        "user": {
+          "desc": ""
+        }
+      },
+      "remove": {
+        "desc": "",
+        "id": {
+          "desc": ""
+        }
+      }
+    },
+    "permission": {
+      "desc": "",
+      "check": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        }
+      }
+    },
+    "purge": {
+      "desc": "",
+      "amount": {
+        "desc": ""
+      },
+      "user": {
+        "desc": ""
+      }
+    },
+    "rank": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      }
+    },
+    "remind": {
+      "desc": "",
+      "me": {
+        "desc": "",
+        "in": {
+          "desc": ""
+        },
+        "about": {
+          "desc": ""
+        },
+        "here": {
+          "desc": ""
+        }
+      },
+      "list": {
+        "desc": ""
+      },
+      "delete": {
+        "desc": "",
+        "id": {
+          "desc": ""
+        }
+      }
+    },
+    "removewarn": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "caseid": {
+        "desc": ""
+      }
+    },
+    "serverinfo": {
+      "desc": ""
+    },
+    "settings": {
+      "desc": ""
+    },
+    "setup": {
+      "desc": "",
+      "config": {
+        "desc": "",
+        "log_channel": {
+          "desc": ""
+        },
+        "ban_timeout": {
+          "desc": ""
+        },
+        "temp_ban_duration": {
+          "desc": ""
+        },
+        "warn_threshold": {
+          "desc": ""
+        },
+        "staff_role": {
+          "desc": ""
+        },
+        "autoban": {
+          "desc": ""
+        }
+      },
+      "honeypot": {
+        "desc": "",
+        "name": {
+          "desc": ""
+        },
+        "category": {
+          "desc": ""
+        },
+        "remove": {
+          "desc": ""
+        }
+      }
+    },
+    "suggest": {
+      "desc": "",
+      "idea": {
+        "desc": ""
+      },
+      "anonymous": {
+        "desc": ""
+      }
+    },
+    "suggestions": {
+      "desc": "",
+      "channel": {
+        "desc": "",
+        "channel": {
+          "desc": ""
+        },
+        "threads": {
+          "desc": ""
+        }
+      },
+      "approve": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "deny": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "consider": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "implemented": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        },
+        "reason": {
+          "desc": ""
+        }
+      },
+      "author": {
+        "desc": "",
+        "number": {
+          "desc": ""
+        }
+      }
+    },
+    "support-history": {
+      "desc": ""
+    },
+    "support": {
+      "desc": ""
+    },
+    "tempban": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "duration": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "timeout": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "duration": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "unban": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "untimeout": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "userinfo": {
+      "desc": "",
+      "target": {
+        "desc": ""
+      }
+    },
+    "vote": {
+      "desc": "",
+      "status": {
+        "desc": ""
+      },
+      "leaderboard": {
+        "desc": "",
+        "period": {
+          "desc": "",
+          "c": {
+            "month": "",
+            "all": ""
+          }
+        }
+      },
+      "reminder": {
+        "desc": "",
+        "enabled": {
+          "desc": ""
+        }
+      }
+    },
+    "wallpaper": {
+      "desc": ""
+    },
+    "warn": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      },
+      "reason": {
+        "desc": ""
+      }
+    },
+    "warnings": {
+      "desc": "",
+      "user": {
+        "desc": ""
+      }
+    }
+  },
+  "dash": {
+    "panel": {
+      "maximumBot": "",
+      "allMyServers": "",
+      "admin": "",
+      "logOut": "",
+      "loading": "",
+      "settings": "",
+      "automod": "",
+      "customCommands": "",
+      "rolePanels": "",
+      "modLog": "",
+      "accessAudit": "",
+      "dangerZone": "",
+      "serverSettings": "",
+      "logChannel": "",
+      "none": "",
+      "staffRoleModCommandOverride": "",
+      "banTimeoutHours": "",
+      "tempBanDurationDays": "",
+      "warnThreshold": "",
+      "autoBanWhenWarnThresholdIs": "",
+      "saveSettings": "",
+      "moderatorRoles": "",
+      "anyoneHoldingOneOfTheseRoles": "",
+      "addARole": "",
+      "add": "",
+      "onlySomeoneWithManageServerAdministrator": "",
+      "suggestions": "",
+      "whereSuggestPostsGoInThis": "",
+      "suggestionsChannel": "",
+      "off": "",
+      "openADiscussionThreadForEach": "",
+      "saveSuggestions": "",
+      "automodEnabledEverythingBelowDependsOn": "",
+      "antiScamLinkFilter": "",
+      "restrictEveryoneHereToStaff": "",
+      "massMentionProtection": "",
+      "syncToDiscordSNativeAutomod": "",
+      "automodLogChannelOptionalFallsBack": "",
+      "bypassRoles": "",
+      "customBlacklistOneDomainKeywordPer": "",
+      "saveAutomod": "",
+      "trigger": "",
+      "type": "",
+      "enabled": "",
+      "buttons": "",
+      "uses": "",
+      "addCommand": "",
+      "runWithCcTriggerNamePlaceholders": "",
+      "responseType": "",
+      "text": "",
+      "embed": "",
+      "yes": "",
+      "no": "",
+      "content": "",
+      "embedTitle": "",
+      "embedColorHex": "",
+      "embedDescription": "",
+      "authorNameOptional": "",
+      "footerOptional": "",
+      "thumbnailUrlOptionalSmallImage": "",
+      "imageUrlOptionalLargeImage": "",
+      "preview": "",
+      "buttonsOptionalUpTo5": "",
+      "addButton": "",
+      "saveCommand": "",
+      "cancelEdit": "",
+      "newPanel": "",
+      "panelsLetMembersGiveThemselvesRoles": "",
+      "newPanel2": "",
+      "postInChannel": "",
+      "title": "",
+      "description": "",
+      "layout": "",
+      "mode": "",
+      "maxPerMember": "",
+      "requiredRoleOptional": "",
+      "accentColour": "",
+      "bannerImageUrlOptional": "",
+      "dropdownPlaceholderOptional": "",
+      "roleLabelDescriptionEmojiButtonColour": "",
+      "addRole": "",
+      "postPanel": "",
+      "cancel": "",
+      "recentModerationActions": "",
+      "case": "",
+      "user": "",
+      "moderator": "",
+      "reason": "",
+      "when": "",
+      "dashboardAccess": "",
+      "anyoneHereCanOpenAndUse": "",
+      "discordUserId": "",
+      "grantAccess": "",
+      "userId": "",
+      "dashboardAccessRoles": "",
+      "anyoneHoldingOneOfTheseRoles2": "",
+      "onlySomeoneWithManageServerAdministrator2": "",
+      "recentActivity": "",
+      "everyChangeMadeThroughThisDashboard": "",
+      "who": "",
+      "action": "",
+      "detail": "",
+      "theseActionsAreOnlyAvailableTo": "",
+      "leaveThisServer": "",
+      "blacklistThisServer": "",
+      "rules": "",
+      "welcomeUserToServer": "",
+      "pickYourRoles": "",
+      "clickAButtonToGetOr": "",
+      "0NoLimit": "",
+      "roles": "",
+      "serverLanguage": "",
+      "serverLanguageHelp": ""
+    },
+    "picker": {
+      "maximumBot": "",
+      "logOut": "",
+      "yourServers": "",
+      "loading": "",
+      "noServers": "",
+      "noServersHelp": "",
+      "manageCount_one": "",
+      "manageCount_other": ""
+    },
+    "js": {
+      "never": "",
+      "justNow": "",
+      "minsAgo": "",
+      "hrsAgo": "",
+      "daysAgo": "",
+      "requestFailed": "",
+      "members_one": "",
+      "members_other": "",
+      "selectRole": "",
+      "selectChannel": "",
+      "noRoles": "",
+      "saving": "",
+      "saved": "",
+      "error": "",
+      "adding": "",
+      "added": "",
+      "scamBadge": "",
+      "edit": "",
+      "delete": "",
+      "restore": "",
+      "flagScam": "",
+      "noCustomCommands": "",
+      "confirmFlag": "",
+      "confirmDeleteCommand": "",
+      "editingCommand": "",
+      "label": "",
+      "style": "",
+      "link": "",
+      "reply": "",
+      "replyText": "",
+      "url": "",
+      "remove": "",
+      "buttonTextPlaceholder": "",
+      "replyPlaceholder": "",
+      "urlPlaceholder": "",
+      "noButtons": "",
+      "noModActions": "",
+      "noModRoles": "",
+      "revoke": "",
+      "noAccessUsers": "",
+      "noAccessRoles": "",
+      "noAudit": "",
+      "confirmLeave": "",
+      "leftRedirecting": "",
+      "blacklistReason": "",
+      "noReason": "",
+      "confirmBlacklist": "",
+      "blacklistedRedirecting": "",
+      "rpCantManage": "",
+      "rpBotMissing": "",
+      "anyoneCanUse": "",
+      "layoutUpTo": "",
+      "noPanels": "",
+      "noPanelsHint": "",
+      "buttons": "",
+      "pickAny": "",
+      "noRolesYetLower": "",
+      "rolePanel": "",
+      "deletedChannel": "",
+      "maxPicks": "",
+      "roleCount_one": "",
+      "roleCount_other": "",
+      "open": "",
+      "editPanel": "",
+      "newPanel": "",
+      "saveChanges": "",
+      "postPanel": "",
+      "notAllowed": "",
+      "descriptionOptional": "",
+      "blurple": "",
+      "grey": "",
+      "green": "",
+      "red": "",
+      "noRolesAdd": "",
+      "noRolesYet": "",
+      "role": "",
+      "roleCap": "",
+      "pickARole": "",
+      "pickYourRoles": "",
+      "upTo": "",
+      "needsRole": "",
+      "footMenu": "",
+      "footAddOnly": "",
+      "footToggle": "",
+      "panelTitle": "",
+      "rpEmptyRows": "",
+      "rpPickChannel": "",
+      "rpNeedTitle": "",
+      "panelPosted": "",
+      "panelUpdated": "",
+      "confirmDeletePanel": "",
+      "couldNotDelete": "",
+      "couldNotLoadPanels": "",
+      "couldNotLoadSuggestions": "",
+      "failedToLoad": "",
+      "languageSaved": ""
+    },
+    "err": {
+      "nativePermission": "",
+      "botNotInServer": "",
+      "roleRequired": "",
+      "unknownUser": "",
+      "cantPostIn": "",
+      "needManageRoles": "",
+      "botNeedsManageRoles": "",
+      "pickChannel": "",
+      "panelGone": "",
+      "channelGone": "",
+      "ownerFlag": "",
+      "ownerUnflag": "",
+      "ownerOnly": "",
+      "badLanguage": ""
+    }
+  }
+}
