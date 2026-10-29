@@ -6,10 +6,10 @@ The text Maximum Bot uses in Discord and on its dashboard, in every language it 
 
 | Language | File | Status |
 |---|---|---|
-| 🇬🇧 English | [`ENGL.json`](ENGL.json) | Original text. All other languages are translated from this file. |
-| 🇫🇷 French | [`FREN.json`](FREN.json) | Complete. Reviewers welcome. |
-| 🇪🇸 Spanish | [`SPAN.json`](SPAN.json) | Complete, **needs review** by a native speaker before it goes live |
-| 🇹🇷 Turkish | [`TURK.json`](TURK.json) | Complete, **needs review** by a native speaker before it goes live |
+| 🇬🇧 English | [`ENGL.json`](ENGL.json) | Original text. All other languages are translated from this file, using google translate and deepL AI Translation |
+| 🇫🇷 French | [`FREN.json`](FREN.json) |  Complete.  **needs review** Reviewers welcome. |
+| 🇪🇸 Spanish | [`SPAN.json`](SPAN.json) | Complete, **needs review** Reviewers welcome. |
+| 🇹🇷 Turkish | [`TURK.json`](TURK.json) | Complete, **needs review** Reviewers welcome. |
 | ➕ New language | [`TEMPLATE.json`](TEMPLATE.json) | Blank file to start a new translation |
 
 Every file has the same 1,831 lines in the same order.
@@ -58,7 +58,7 @@ Most sections are named after a bot command (`purge` is `/purge`, `help` is `/he
 ## Sending your work
 
 - **On GitHub:** fork this repository, edit the file, and open a pull request. For a review, you can also open an issue listing your fixes.
-- **No GitHub account?** Post your fixes or your file in our Discord server, or reach us at [support.maximumstudios.xyz](https://support.maximumstudios.xyz).
+- **No GitHub account?** Post your fixes or your file in our [Discord Server](https://discord.gg/TcnPp8xzMn), or reach us at [support.maximumstudios.xyz](https://support.maximumstudios.xyz).
 
 Every submission is checked automatically for missing lines, broken placeholders and text that's too long before it goes into the bot. You don't need to be perfect. We'll catch the technical problems.
 
